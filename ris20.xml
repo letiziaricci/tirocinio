@@ -409,18 +409,18 @@
          <tei:div type="retro">
             <tei:opener xmlns="http://www.tei-c.org/ns/1.0">
                <tei:dateline>
-                  <tei:lb/>
+                  <lb/>
                   <tei:s>            li, 3/12-1916</tei:s>
                </tei:dateline>
             </tei:opener>
             <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
                <tei:p>
-                  <tei:lb/>            Oliva, Oliva mia adorata,<tei:lb/>            Nè ieri, nè oggi ho ricevuto tuoi scritti. Perchè?<tei:lb/>            Vuoi addolorare il tuo Giovannino lontano? Ho<tei:lb/>            già fatto mille supposizioni e congetture, mi auguro<tei:lb/>            che la tua salute sia ottima. Vorrei correre a te<tei:lb/>            volare sul tuo grembo adorato e carezzevolmente ba-<tei:lb/>            ciarti la fronte, i capelli, il volto in segno di devoto<tei:lb/>            affetto e d'amore sublime. Mi raccomando<tei:lb/>            tanto tanto scrivimi lungamente e spiegami<tei:lb/>            la ragione del tuo silenzio.</tei:p>
-               <tei:p type="fronte"/>
+                  <lb/>            Oliva, Oliva mia adorata,<lb/>            Nè ieri, nè oggi ho ricevuto tuoi scritti. Perchè?<lb/>            Vuoi addolorare il tuo Giovannino lontano? Ho<lb/>            già fatto mille supposizioni e congetture, mi auguro<lb/>            che la tua salute sia ottima. Vorrei correre a te<lb/>            volare sul tuo grembo adorato e carezzevolmente ba-<lb/>            ciarti la fronte, i capelli, il volto in segno di devoto<lb/>            affetto e d'amore sublime. Mi raccomando<lb/>            tanto tanto scrivimi lungamente e spiegami<lb/>            la ragione del tuo silenzio.</tei:p>
+               <p type="fronte"/>
             </tei:div>
             <tei:closer xmlns="http://www.tei-c.org/ns/1.0">
                <tei:s>
-                  <tei:lb/>un bacio immenso, infinito <tei:lb/>tuo <tei:signed>
+                  <lb/>un bacio immenso, infinito <lb/>tuo <tei:signed>
                      <tei:persName>
                         <tei:forename ref="Giovannino">Giovannino</tei:forename>
                      </tei:persName>
@@ -428,7 +428,7 @@
                </tei:s>
             </tei:closer>
             <tei:div type="postmark-postage">
-               <tei:ab/>
+               <ab/>
             </tei:div>
             <tei:div type="secondamano">
                <tei:ab type="paratext">
