@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-034">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Donna con cappello floreale] - Edizione digitale</title>
+            <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <resp>Trascritto da:</resp>
+               <persName>Letizia Ricci</persName>
+            </respStmt>
+            <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <resp>Ente di Appartenenza:</resp>
+               <name type="comune">Comune di
+						                    <placeName>La Spezia</placeName>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                            <date when="2018">2018</date>
+            </edition>
+            <respStmt>
+               <resp>Codificato da:</resp>
+               <persName>Letizia Ricci</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Responsabile scientifico:</resp>
+               <persName>Giacomo Paolicchi</persName>
+               <persName>Enrica Salvatori</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Funzionario responsabile:</resp>
+               <persName>E. Ratti</persName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName>Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace>Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName>
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName>Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+            <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+               <title type="custom" resp="#ES">[Donna con cappello floreale]</title>
+               <author/>
+               <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+               <!-- LUOGO -->
+               <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+               <date>1914</date>
+            </bibl>
+            <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+               <msIdentifier>
+                  <country>Italia</country>
+                  <settlement>La Spezia (SP)</settlement>
+                  <!-- COLLOCAZIONE SPECIFICA -->
+                  <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- CODICE IDENTIFICATIVO -->
+                  <idno>7694_034_034/034</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp>francobollo - Regno d'Italia</stamp>
+                        </support>
+                        <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+            <!-- NOMI -->
+            <listPerson>
+               <person xml:id="GM">
+                  <persName>
+                     <forename>Giuseppe Magi</forename>
+                     <surname>Morfede </surname>
+                  </persName>
+                  <sex>M</sex>
+                  <occupation n="1">[maggiore]</occupation>
+                  <note/>
+               </person>
+               <person xml:id="AT">
+                  <persName>
+                     <forename>Antonietta</forename>
+                     <surname>Turtura</surname>
+                  </persName>
+                  <sex>F</sex>
+                  <note/>
+               </person>
+            </listPerson>
+            <listPlace>
+               <place xml:id="RV">
+                  <placeName>Ravenna</placeName>
+                  <settlement type="località">città</settlement>
+                  <district type="comune">Ravenna</district>
+                  <district type="provincia">RV</district>
+                  <country key="N">IT</country>
+                  <note>...</note>
+               </place>
+            </listPlace>
+            <listOrg>
+               <org xml:id="N3">
+                  <orgName type="N"/>
+                  <desc>...</desc>
+               </org>
+            </listOrg>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#GC"/>
+               <placeName>...</placeName>
+               <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+               <date type="postage" when="1914-10-11">1914/10/11</date>
+               <date type="writing" when="1914-10-11">1916/10/11</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>
+                  <forename>Antonietta</forename>
+                  <surname>Turtura</surname>
+               </persName>
+               <placeName>Ravenna</placeName>
+            </correspAction>
+            <correspContext>
+               <p>
+                        <!-- previous -->
+                        <!-- forward -->
+                    </p>
+            </correspContext>
+         </correspDesc>
+         <textClass>
+            <keywords scheme="">
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Coppia di innamorati</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <p>
+                      Check sintattico con xmllint e validazione con schema RNG.
+                      Codifica seguendo il metodo "parallel-trascription".
+                      Codifica di base rispettando le forme e le informazioni lessicali, la punteggiatura e la sillabazione del documento,
+                      normalizzando il tutto per la codifica.
+                      Con appositi attributi è stata specificata anche la resa grafica di alcuni elementi.
+                  </p>
+      </encodingDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+         <surface n="1" xml:id="Retro_cartolina1">
+            <graphic url="7694-034R.jpg" width="1636px" height="1060px"/>
+            <zone ulx="26" uly="18" lrx="659" lry="131" xml:id="zona1"/>
+            <zone ulx="77" uly="173" lrx="671" lry="694" xml:id="zona2"/>
+            <zone ulx="76" uly="693" lrx="680" lry="1037" xml:id="zona3"/>
+            <zone ulx="77" uly="950" lrx="628" lry="1038" xml:id="zona4"/>
+            <zone ulx="661" uly="101" lrx="972" lry="411" xml:id="zona5"/>
+            <zone ulx="1160" uly="66" lrx="1406" lry="343" xml:id="zona6"/>
+            <zone ulx="1410" uly="70" lrx="1634" lry="335" xml:id="zona7"/>
+            <zone ulx="739" uly="414" lrx="1614" lry="987" xml:id="zona8"/>
+         </surface>
+         <surface n="2" xml:id="Fronte_cartolina1">
+            <graphic url="7694-034F.jpg" width="1058px" height="1650px"/>
+         </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0"
+              type="fronte"
+              xml:id="fronte"
+              facs="#Fronte_cartolina1">
+            <p xml:id="figDesc1">
+                L'immagine della cartolina raffigura una donna, mezzo busto, che sorride. La donna ha dei capelli mossi castani,
+                indossa un cappello con ornao da due grossi fiori, un giallo e uno rosso, e da altri due fiori più piccoli color 
+                rosa. Sul corpo indossa un abito color viola con sopra quella che pare essere una pelliccia. 
+                In basso a destra vi è la firma dell'artista.
+                        </p>
+            <p xml:id="titleDesc1">Donna sorridente</p>
+            <!--</ab>-->
+         </div>
+         <div type="retro">
+            <opener xmlns="http://www.tei-c.org/ns/1.0">
+               <dateline>
+                  <lb/>
+                  <s>        Firenze 11-X-914</s>
+               </dateline>
+            </opener>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+               <p>
+                  <lb/>        Dopo circa 20 giorni<lb/>	    sono oggi soltanto<lb/>	    appena in grado <lb/>	    di riprendere la <lb/>	    penna in mano.<lb/>        Sto un po meglio.<lb/>        Grazie a tutti<lb/>	    dei saluti e <lb/>        auguri </p>
+            </div>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+               <s>
+                  <lb/>Aff.mo <lb/>
+                  <signed>
+                     <persName>
+                        <forename ref="Giuseppe">Giuseppe</forename>
+                     </persName>
+                  </signed>
+                  <signed>
+                     <persName>
+                        <surname>Magi</surname>
+                     </persName>
+                  </signed>
+                  <signed>
+                     <persName>
+                        <surname>Morfede</surname>
+                     </persName>
+                  </signed>
+               </s>
+            </closer>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                     <addrLine>
+                        <lb/>        Sig.na Antonietta Turtura<lb/>        V. Girolamo Rossi 58<lb/>        Ravenna</addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+               <ab>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0">
+                     <placeName>Firenze</placeName>
+                     <date when="20-21/10/1916">20-21 X 1916</date>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" xml:id="stamp1">Poste italine 5 centesimi</stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" xml:id="stamp2">Poste italiane 5 centesimi</stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add cert="medium">
+                     <num xmlns="http://www.tei-c.org/ns/1.0" type="cardinal" value="34">
+                               34
+                    </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

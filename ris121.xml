@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-121">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> Donna che sorride  - Edizione digitale</title>
+            <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <resp>Trascritto da:</resp>
+               <persName>Letizia Ricci</persName>
+            </respStmt>
+            <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <resp>Ente di Appartenenza:</resp>
+               <name type="comune">Comune di
+						                    <placeName>La Spezia</placeName>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                            <date when="2018">2018</date>
+            </edition>
+            <respStmt>
+               <resp>Codificato da:</resp>
+               <persName>Letizia Ricci</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Responsabile scientifico:</resp>
+               <persName>Giacomo Paolicchi</persName>
+               <persName>Enrica Salvatori</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Funzionario responsabile:</resp>
+               <persName>E. Ratti</persName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName>Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace>Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName>
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName>Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     default="false">
+            <bibl default="false" status="draft">
+                        <!-- Titolo ricavato dalla cartolina -->
+               <title type="custom"> Donna che sorride </title>
+            </bibl>
+            <msDesc status="draft"><!-- Codice identificativo della cartolina -->
+               <msIdentifier>
+                  <country>
+                     <gi>Nazione: </gi>Italia</country>
+                  <settlement type="city">
+                     <gi>Città: </gi>La Spezia (SP) </settlement>
+                  <repository> 
+                                Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerra Mondiale 
+                            </repository>
+                  <idno>7694_121_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto e descrizione generica delle tre cartoline -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>
+                     <gi>Lingua: </gi>Italiano </textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType> Cartolina </objectType>
+                           <material> Carta </material>
+                           <dimensions unit="cm">
+                              <height> 9 </height>
+                              <width>14 </width>
+                           </dimensions>
+                        </support>
+                        <!-- Conservazione buono= non occorrono interventi di restauro;-->
+                        <condition>
+                           <gi>Stato: </gi>Buono </condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <correspDesc default="false">
+            <correspContext>
+               <ref type="next" target="#cartolina138">
+                  <persName ref="#GC" instant="false" full="yes"> Giovanni Coliola </persName>
+                  <persName ref="#OT" instant="false" full="yes"> Oliva Turtura </persName>
+                  <date when="11/10/1917" instant="false">11/10/1917</date>
+               </ref>
+            </correspContext>
+         </correspDesc>
+         <textClass default="false">
+            <keywords><!-- soggettario -->
+               <term> Donna in rosso con cerchietto sorridente </term>
+               <!-- tipologia -->
+               <term> Artistica </term>
+               <!-- descrizione -->
+               <term> Cartolina Artistica </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <p>
+                      Check sintattico con xmllint e validazione con schema RNG.
+                      Codifica seguendo il metodo "parallel-trascription".
+                      Codifica di base rispettando le forme e le informazioni lessicali, la punteggiatura e la sillabazione del documento,
+                      normalizzando il tutto per la codifica.
+                      Con appositi attributi è stata specificata anche la resa grafica di alcuni elementi.
+                  </p>
+      </encodingDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <surface xml:id="F121"
+                  start="#F1"
+                  ulx="0"
+                  uly="0"
+                  lrx="549"
+                  lry="344">
+            <graphic url="img/121F.jpg"/>
+         </surface>
+         <surface xml:id="R121"
+                  start="#R1"
+                  ulx="0"
+                  uly="0"
+                  lrx="549"
+                  lry="344">
+            <graphic url="img/121R.jpg"/>
+            <!-- data - Modena, lì 21/6-1917 -->
+            <zone xml:id="cart_121_01"
+                  ulx="93"
+                  uly="0"
+                  lrx="344"
+                  lry="30"
+                  rendition="Line"
+                  rotate="0"/>
+            <!-- saluto iniziale - Oliva cara -->
+            <zone xml:id="cart_121_02"
+                  ulx="11"
+                  uly="11"
+                  lrx="162"
+                  lry="45"
+                  rendition="Line"
+                  rotate="0"/>
+            <!-- Intero Testo -->
+            <!-- Ieri non ti scrissi, non ne ebbi -->
+            <zone xml:id="cart_121_03"
+                  ulx="0"
+                  uly="41"
+                  lrx="344"
+                  lry="76"
+                  rendition="Line"
+                  rotate="0"/>
+            <!-- il tempo perchè fui comandato -->
+            <zone xml:id="cart_121_04"
+                  ulx="0"
+                  uly="79"
+                  lrx="344"
+                  lry="111"
+                  rendition="Line"
+                  rotate="0"/>
+            <!-- in servizio di truppa in occa- -->
+            <zone xml:id="cart_121_05"
+                  ulx="0"
+                  uly="114"
+                  lrx="344"
+                  lry="147"
+                  rendition="Line"
+                  rotate="0"/>
+            <!-- sione della consegna in caserma -->
+            <zone xml:id="cart_121_06"
+                  ulx="0"
+                  uly="150"
+                  lrx="344"
+                  lry="179"
+                  rendition="Line"
+                  rotate="0"/>
+            <!-- delle truppe. Oggi idem, ma -->
+            <zone xml:id="cart_121_07"
+                  ulx="0"
+                  uly="180"
+                  lrx="344"
+                  lry="227"
+                  rendition="Line"
+                  rotate="0"/>
+            <!-- si può respirare un poco e ne -->
+            <zone xml:id="cart_121_08"
+                  ulx="0"
+                  uly="222"
+                  lrx="344"
+                  lry="256"
+                  rendition="Line"
+                  rotate="0"/>
+            <!-- approfitto per inviarti i miei -->
+            <zone xml:id="cart_121_09"
+                  ulx="0"
+                  uly="258"
+                  lrx="344"
+                  lry="291"
+                  rendition="Line"
+                  rotate="0"/>
+            <!-- migliori ed affettuosi baci. -->
+            <zone xml:id="cart_121_10"
+                  ulx="0"
+                  uly="290"
+                  lrx="344"
+                  lry="324"
+                  rendition="Line"
+                  rotate="0"/>
+            <!-- Tu nemmeno mi hai scritto. -->
+            <zone xml:id="cart_121_11"
+                  ulx="0"
+                  uly="322"
+                  lrx="344"
+                  lry="358"
+                  rendition="Line"
+                  rotate="0"/>
+            <!-- Perchè? Questa sera spero -->
+            <zone xml:id="cart_121_12"
+                  ulx="0"
+                  uly="360"
+                  lrx="344"
+                  lry="390"
+                  rendition="Line"
+                  rotate="0"/>
+            <!-- di poterti scrivere lungamente. -->
+            <zone xml:id="cart_121_13"
+                  ulx="0"
+                  uly="392"
+                  lrx="344"
+                  lry="422"
+                  rendition="Line"
+                  rotate="0"/>
+            <!-- Abbiti un dolcissimo bacio -->
+            <zone xml:id="cart_121_14"
+                  ulx="0"
+                  uly="429"
+                  lrx="344"
+                  lry="467"
+                  rendition="Line"
+                  rotate="0"/>
+            <!-- Saluto finale 1 - dal tuo -->
+            <zone xml:id="cart_121_15"
+                  ulx="27"
+                  uly="468"
+                  lrx="149"
+                  lry="505"
+                  rendition="Line"
+                  rotate="0"/>
+            <!-- Firma - Giovannino -->
+            <zone xml:id="cart_121_16"
+                  ulx="128"
+                  uly="479"
+                  lrx="344"
+                  lry="516"
+                  rendition="Line"
+                  rotate="0"/>
+            <!-- Saluto finale 2 - Saluti a tutti -->
+            <zone xml:id="cart_121_17"
+                  ulx="7"
+                  uly="516"
+                  lrx="203"
+                  lry="547"
+                  rendition="Line"
+                  rotate="0"/>
+            <!-- Proprietà artistica riservata -->
+            <zone xml:id="cart_121_18"
+                  ulx="309"
+                  uly="542"
+                  lrx="116"
+                  lry="521"
+                  rendition="Line"
+                  rotate="0"/>
+         </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              type="fronte"
+              facs="#F121"
+              xml:id="F1"
+              part="N"
+              org="uniform"
+              sample="complete">
+            <figure>
+               <graphic url="img/121F.jpg" xml:id="c1" n="121"/>
+               <figDesc> Donna in rosso con cerchietto sorridente </figDesc>
+               <head> Donna che sorride </head>
+            </figure>
+         </div>
+         <div type="retro">
+            <opener xmlns="http://www.tei-c.org/ns/1.0">
+               <dateline>
+                  <lb/>
+                  <s>            Modena, li 21/6-1917.</s>
+               </dateline>
+            </opener>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+               <p>
+                  <lb/>            Oliva cara,<lb/>            Ieri non ti scrissi, non ne ebbi <lb/>            il tempo perchè fui comandato <lb/>            in servizio di truppa in occa-<lb/>            sione della della consegna in caserma<lb/>            delle truppe. Oggi idem, ma <lb/>            si può respirare un poco e ne<lb/>            approfitto per inviarti i miei <lb/>            migliori ed affettuosi baci.<lb/>            Tu nemmeno mi hai scritto.<lb/>            Perchè? Questa sera spero<lb/>            di poterti scrivere lungamente .</p>
+            </div>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+               <s>
+                  <lb/>Abbiti un dolcissimo bacio <lb/>del tuo <lb/>
+                  <signed>
+                     <persName>
+                        <forename ref="Giovannino">Giovannino</forename>
+                     </persName>
+                  </signed>
+                  <lb/>Saluti a tutti </s>
+            </closer>
+            <div type="postmark-postage">
+               <ab/>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add cert="medium">
+                     <num xmlns="http://www.tei-c.org/ns/1.0"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          type="cardinal"
+                          value="121">
+                                        121
+                                </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

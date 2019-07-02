@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-187">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Estasi - Edizione digitale</title>
+            <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <resp>Trascritto da:</resp>
+               <persName>Letizia Ricci</persName>
+            </respStmt>
+            <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <resp>Ente di Appartenenza:</resp>
+               <name type="comune">Comune di
+						                    <placeName>La Spezia</placeName>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                            <date when="2018">2018</date>
+            </edition>
+            <respStmt>
+               <resp>Codificato da:</resp>
+               <persName>Letizia Ricci</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Responsabile scientifico:</resp>
+               <persName>Giacomo Paolicchi</persName>
+               <persName>Enrica Salvatori</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Funzionario responsabile:</resp>
+               <persName>E. Ratti</persName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName>Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace>Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName>
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName>Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     default="false">
+            <bibl default="false" status="draft">
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+               <title>Estasi</title>
+               <author ref="#M">Mastroianni</author>
+               <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+               <publisher>Cromoscultura A. Traldi</publisher>
+               <!-- LUOGO -->
+               <pubPlace>Milano</pubPlace>
+               <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+               <date when="1917" instant="false">1917</date>
+            </bibl>
+            <msDesc status="draft">
+               <msIdentifier>
+                  <country>Italia</country>
+                  <settlement>La Spezia (SP)</settlement>
+                  <!-- COLLOCAZIONE SPECIFICA -->
+                  <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+                            cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- CODICE IDENTIFICATIVO -->
+                  <idno>7694_187_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+                  <msItem n="1" facs="#fronte2">
+                     <author>
+                        <persName ref="#M" instant="false" full="yes">Mastroianni</persName>
+                     </author>
+                     <title>Estasi</title>
+                  </msItem>
+                  <msItem n="2" facs="#retro2">
+                     <author>
+                        <persName ref="#GI" instant="false" full="yes">Giovanni Coliola</persName>
+                     </author>
+                     <title>Cartolina di Giovanni a Oliva Turtura, Spezia, 31/03/1917</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp>Non sono presenti o non sono leggibili
+                                        francobolli.</stamp>
+                        </support>
+                        <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+                                discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+                                mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+                                cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <summary>Scrittura eseguita a mano leggibile, con una annotazione nella
+                                parte superiore del retro.</summary>
+                     <handNote n="1">Annotazione di un catalogatore che presenta il numero 
+                                187, relativo alla classificazione delle 227 cartoline appartenente al museo di La Spezia.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <p part="N">La cartolina è stata scritta il <origDate instant="false">31 Marzo 1917</origDate> a <origPlace ref="#SP" instant="false">Spezia</origPlace>, da un tenente colonnello chiamato Giovanni Coliola, probabilmente impegnato in guerra in occasione della <date from="1914" to="1918" instant="false">Prima Guerra Mondiale</date>.
+                       La cartolina è spedita infatti alla sua amata, dalla quale purtroppo la guerra lo tiene lontano.</p>
+               </history>
+            </msDesc>
+            <!-- NOMI -->
+            <listPerson default="false">
+               <person xml:id="GI" instant="false">
+                  <persName instant="false" full="yes">
+                     <forename full="yes">Giovanni</forename>
+                     <addName type="nick" full="yes">Giovannino</addName>
+                     <surname full="yes">Coliola</surname>
+                  </persName>
+                  <sex instant="false">M</sex>
+                  <occupation n="1" instant="false">tenente colonnello</occupation>
+                  <birth when="1985" instant="false">1895<placeName type="city" instant="false" full="yes">Napoli</placeName>,<country>Italia</country>
+                  </birth>
+                  <death when="1980" instant="false">1980<placeName type="city" instant="false" full="yes">Ravenna</placeName>,<country>Italia</country>
+                  </death>
+                  <note resp="#FM" anchored="true">Mittente della cartolina. Si firma come Giovannino</note>
+               </person>
+               <person instant="false">
+                  <persName ref="#M" instant="false" full="yes">
+                     <ref target="https://www.guidedocartis.it/?page_id=15834"/>
+                     <forename full="yes">
+                        <choice>
+                           <abbr>D</abbr>
+                           <expan instant="false">Domenico</expan>
+                        </choice>
+                     </forename>
+                     <surname full="yes">Mastroianni</surname>
+                  </persName>
+                  <sex instant="false">M</sex>
+                  <birth when="1876-01-01" instant="false">1/01/1876<placeName type="comune" instant="false" full="yes">Arpino</placeName>,<country>Italia</country>
+                  </birth>
+                  <death when="1962" instant="false">1962<placeName type="city" instant="false" full="yes">Roma</placeName>,<country>Italia</country>
+                  </death>
+                  <occupation instant="false">Pittore e scultore</occupation>
+                  <note resp="#AL" anchored="true">Autore della cartolina</note>
+               </person>
+            </listPerson>
+            <listOrg default="false">
+               <org xml:id="AT" instant="false">
+                  <orgName type="Editore" instant="false" full="yes">Cromoscultura<abbr type="initial">A.</abbr>Traldi</orgName>
+                  <place instant="false">
+                     <placeName instant="false" full="yes">Milano</placeName>
+                  </place>
+                  <desc>Casa editrice che si è occupata della pubblicazione della cartolina e ne detiene il copyright.</desc>
+               </org>
+            </listOrg>
+            <listPlace default="false">
+               <place xml:id="SP" instant="false">
+                  <placeName instant="false" full="yes">La Spezia</placeName>
+                  <location instant="false">
+                     <settlement type="comune">La Spezia</settlement>
+                     <district type="provincia">SP</district>
+                     <region>Liguria</region>
+                     <country type="nazione">IT</country>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="#GI" instant="false" full="yes">Giovanni Coliola</persName>
+               <placeName ref="#SP" instant="false" full="yes">Spezia</placeName>
+               <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+               <date type="writing" when="1917-03-31" instant="false">1917/31/03</date>
+            </correspAction>
+            <correspAction type="received">
+               <note resp="#AL" anchored="true">Nella cartolina non vengono specificati nè il luogo nè la data di arrivo della cartolina. Non è presente neanche il nome del destinatario ma
+                        si presume che si tratti di <persName ref="#OT" instant="false" full="yes">Oliva Turtura</persName>.
+                    </note>
+            </correspAction>
+         </correspDesc>
+         <textClass default="false">
+            <keywords><!-- soggettario --><!-- tipologia --><!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Coppia di innamorati</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <p>
+                      Check sintattico con xmllint e validazione con schema RNG.
+                      Codifica seguendo il metodo "parallel-trascription".
+                      Codifica di base rispettando le forme e le informazioni lessicali, la punteggiatura e la sillabazione del documento,
+                      normalizzando il tutto per la codifica.
+                      Con appositi attributi è stata specificata anche la resa grafica di alcuni elementi.
+                  </p>
+      </encodingDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <surface n="1" xml:id="fronte" corresp="#fronte187"><!-- Fronte -->
+            <graphic url="img/187F.jpg"
+                     width="527px"
+                     height="825px"
+                     xml:id="fronte2"/>
+            <!--firma Mastroianni-->
+         </surface>
+         <surface n="2" xml:id="retro" corresp="#retro187"><!-- Retro -->
+            <graphic url="img/187R.jpg" width="550px" height="355px" xml:id="retro2"/>
+            <zone ulx="7"
+                  uly="158"
+                  lrx="49"
+                  lry="341"
+                  xml:id="C2stampa1"
+                  rotate="0"/>
+            <!--stampa1-->
+            <zone ulx="256"
+                  uly="156"
+                  lrx="264"
+                  lry="249"
+                  xml:id="C2stampa2"
+                  rotate="0"/>
+            <!--stampa2-->
+            <zone ulx="181"
+                  uly="6"
+                  lrx="523"
+                  lry="71"
+                  xml:id="C2retro_01"
+                  rotate="0"/>
+            <!--Spezia li ecc.-->
+            <zone ulx="30"
+                  uly="67"
+                  lrx="508"
+                  lry="118"
+                  xml:id="C2retro_02"
+                  rotate="0"/>
+            <!--prima riga-->
+            <zone ulx="46"
+                  uly="114"
+                  lrx="511"
+                  lry="189"
+                  xml:id="C2retro_03"
+                  rotate="0"/>
+            <!--seconda riga-->
+            <zone ulx="61"
+                  uly="184"
+                  lrx="530"
+                  lry="260"
+                  xml:id="C2retro_04"
+                  rotate="0"/>
+            <!--terza riga-->
+            <zone ulx="39"
+                  uly="253"
+                  lrx="535"
+                  lry="349"
+                  xml:id="C2retro_05"
+                  rotate="0"/>
+            <!--firma-->
+         </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              type="fronte"
+              xml:id="fronte187"
+              part="N"
+              org="uniform"
+              sample="complete">
+            <figure>
+               <figDesc>La cartolina raffigura una coppia di innamorati abbracciati. I due giovani
+                        sono in piedi, in un ambiente  che richiama il periodo classico.</figDesc>
+               <head>Estasi</head>
+            </figure>
+            <ab n="ab_00" facs="#C2fronte_01" part="N">
+               <lb xml:id="fronte_lb_1"/>
+               <persName ref="#M" instant="false" full="yes">
+                  <choice>
+                     <abbr type="initial">D</abbr>
+                     <expan instant="false">Domenico</expan>
+                  </choice> Mastroianni</persName>
+            </ab>
+         </div>
+         <div type="retro">
+            <opener xmlns="http://www.tei-c.org/ns/1.0">
+               <dateline>
+                  <lb/>
+                  <s>            Spezia li 31/3-1917</s>
+               </dateline>
+            </opener>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+               <p>
+                  <lb/>            Un bacio affrettuosisfimo<lb/>            sulla tua purisfima fronte.</p>
+            </div>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+               <s>
+                  <lb/>T'amo ardentemente e ti penso <lb/>
+                  <signed>
+                     <persName>
+                        <forename ref="Giovannino">Giovannino</forename>
+                     </persName>
+                  </signed>
+               </s>
+            </closer>
+            <div type="postmark-postage">
+               <ab/>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add cert="medium">
+                     <num xmlns="http://www.tei-c.org/ns/1.0"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          type="cardinal"
+                          value="11">187</num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

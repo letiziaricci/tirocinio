@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-036">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sempre mia - Edizione digitale</title>
+            <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <resp>Trascritto da:</resp>
+               <persName>Letizia Ricci</persName>
+            </respStmt>
+            <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <resp>Ente di Appartenenza:</resp>
+               <name type="comune">Comune di
+			<placeName>La Spezia</placeName>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                            <date when="2018">2018</date>
+            </edition>
+            <respStmt>
+               <resp>Codificato da:</resp>
+               <persName>Letizia Ricci</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Responsabile scientifico:</resp>
+               <persName>Giacomo Paolicchi</persName>
+               <persName>Enrica Salvatori</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Funzionario responsabile:</resp>
+               <persName>E. Ratti</persName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName>Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace>Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName>
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName>Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0" xml:id="sourcedesc36">
+            <bibl>
+               <title type="custom" resp="#ES">Sempre mia</title>
+               <publisher>Edizioni Mastroianni</publisher>
+               <pubPlace ref="#RM">Roma</pubPlace>
+               <date>1916</date>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Italia</country>
+                  <settlement>La Spezia (SP)</settlement>
+                  <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <idno>7694_036_001/002</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <material>Carta</material>
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                        </support>
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+            <listPerson>
+               <person xml:id="GC">
+                  <persName>
+                     <forename>Giovanni</forename>
+                  </persName>
+                  <sex>M</sex>
+                  <note/>
+               </person>
+               <person xml:id="OT">
+                  <persName>
+                     <forename>Oliva</forename>
+                     <surname>Turtura</surname>
+                  </persName>
+                  <sex>F</sex>
+                  <note/>
+               </person>
+            </listPerson>
+            <listPlace>
+               <place xml:id="RV">
+                  <placeName>Ravenna</placeName>
+                  <settlement type="località">città</settlement>
+                  <district type="comune">Ravenna</district>
+                  <district type="provincia">RV</district>
+                  <country key="N">IT</country>
+               </place>
+               <place>
+                  <placeName ref="#SP">La Spezia</placeName>
+                  <settlement type="località">città</settlement>
+                  <district type="comune">La Spezia</district>
+                  <district type="provincia">SP</district>
+                  <country key="N">IT</country>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#GC">Giovanni</persName>
+               <placeName ref="#SP">La Spezia</placeName>
+               <date type="writing" when="1916-12-24">1916/12/24</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#OT">Oliva</persName>
+               <placeName ref="#RV">Ravenna</placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Coppia di innamorati</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <p>
+                      Check sintattico con xmllint e validazione con schema RNG.
+                      Codifica seguendo il metodo "parallel-trascription".
+                      Codifica di base rispettando le forme e le informazioni lessicali, la punteggiatura e la sillabazione del documento,
+                      normalizzando il tutto per la codifica.
+                      Con appositi attributi è stata specificata anche la resa grafica di alcuni elementi.
+                  </p>
+      </encodingDesc>
+   </teiHeader>
+<facsimile xmlns="http://www.tei-c.org/ns/1.0">
+         <surface xml:id="fronte36" type="fimg">
+            <graphic url="./7694-036/7694-036F.jpg"/>
+         </surface>
+         <surface xml:id="retro36" type="rimg">
+            <graphic url="./7694-036/7694-036R.jpg"/>
+            <zone xml:id="cid36" ulx="541" uly="5" lrx="578" lry="32"/>
+            <zone xml:id="cintro36" ulx="283" uly="13" lrx="482" lry="55"/>
+            <zone xml:id="ctitolo36" ulx="15" uly="17" lrx="154" lry="51"/>
+            <zone xml:id="ctesto36" ulx="25" uly="63" lrx="598" lry="376"/>
+            <zone xml:id="cedz36" ulx="8" uly="142" lrx="21" lry="376"/>
+            <zone xml:id="cstab36" ulx="263" uly="379" lrx="333" lry="385"/>
+            <zone xml:id="cstmp36" ulx="501" uly="373" lrx="572" lry="385"/>
+         </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0"
+              facs="#fronte36"
+              type="fronte"
+              xml:id="frontedesc36">
+            <figure>
+               <figDesc>Il fronte ritrae un dipinto nel cui primo piano è presente un laghetto dove all'interno vi sono due cigni che nuotano; accanto a questi troviamo una giovane donna che li osserva e
+                     alle sue spalle un giovane uomo che la osserva a sua volta. Sullo sfondo è presente un cortile poco nitido.</figDesc>
+               <head>Sempre mia</head>
+            </figure>
+         </div>
+         <div type="retro">
+            <opener xmlns="http://www.tei-c.org/ns/1.0">
+               <dateline>
+                  <lb/>
+                  <s>            Spezia, li 24/12-1916.</s>
+               </dateline>
+            </opener>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+               <p>
+                  <lb/>            Oliva mia, <lb/>            Non so esprimerti la gioia che sento nell'affer-<lb/>            marti che il 27 mattino col treno delle <lb/>            8 io sarò a Ravenna. Mia buona Oliva <lb/>            ti è finalmente arrivato un nostro segno; augu-<lb/>            riamoci di cuore che tutte le nostre aspirazioni <lb/>            saranno anch'esfe esaudite.  </p>
+            </div>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+               <s>
+                  <lb/>Un soavisfimo <lb/>ed affettuosisfimo bacio tuo <signed>
+                     <persName>
+                        <forename ref="Giovannino">Giovannino</forename>
+                     </persName>
+                  </signed>
+               </s>
+            </closer>
+            <div type="postmark-postage">
+               <ab/>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add cert="medium">
+                     <num type="cardinal"> 36 </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

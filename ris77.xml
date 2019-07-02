@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tei:TEI xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <tei:teiHeader>
+      <tei:fileDesc>
+         <tei:titleStmt>
+            <tei:title>[La partita a scacchi] - Edizione digitale</tei:title>
+            <tei:respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <tei:resp>Trascritto da:</tei:resp>
+               <tei:persName>Letizia Ricci</tei:persName>
+            </tei:respStmt>
+            <tei:respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <tei:resp>Ente di Appartenenza:</tei:resp>
+               <tei:name type="comune">Comune di
+						                    <tei:placeName>La Spezia</tei:placeName>
+               </tei:name>
+            </tei:respStmt>
+         </tei:titleStmt>
+         <tei:editionStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <tei:edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                            <tei:date when="2018">2018</tei:date>
+            </tei:edition>
+            <tei:respStmt>
+               <tei:resp>Codificato da:</tei:resp>
+               <tei:persName>Letizia Ricci</tei:persName>
+            </tei:respStmt>
+            <tei:respStmt>
+               <tei:resp>Responsabile scientifico:</tei:resp>
+               <tei:persName>Giacomo Paolicchi</tei:persName>
+               <tei:persName>Enrica Salvatori</tei:persName>
+            </tei:respStmt>
+            <tei:respStmt>
+               <tei:resp>Funzionario responsabile:</tei:resp>
+               <tei:persName>E. Ratti</tei:persName>
+            </tei:respStmt>
+         </tei:editionStmt>
+         <tei:publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <tei:publisher>
+               <tei:choice>
+                  <tei:abbr>Unipi</tei:abbr>
+                  <tei:expan>Università di
+                            <tei:placeName>Pisa</tei:placeName>
+                  </tei:expan>
+               </tei:choice>
+            </tei:publisher>
+            <tei:pubPlace>Pisa</tei:pubPlace>
+            <tei:availability>
+               <tei:p>Available under licence only</tei:p>
+            </tei:availability>
+            <tei:date when="2019">2019</tei:date>
+            <tei:distributor>
+               <tei:orgName>
+                  <tei:choice>
+                     <tei:abbr>LabCD</tei:abbr>
+                     <tei:expan>Laboratorio di Cultura Digitale</tei:expan>
+                  </tei:choice>
+               </tei:orgName>
+            </tei:distributor>
+            <tei:address>
+               <tei:addrLine>Laboratorio di Cultura Digitale - Università di Pisa</tei:addrLine>
+               <tei:addrLine>
+                  <tei:placeName>Pisa</tei:placeName>
+               </tei:addrLine>
+            </tei:address>
+         </tei:publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+            <bibl>
+               <title level="m">[La partita a scacchi]</title>
+               <name>
+                  <persName>
+                     <name ref="http://it.wikipedia.org/wiki/Gerolamo_Induno">Gerolamo Induno</name>
+                  </persName>
+                  <graphic url="images/GerolamoInduno.png"/>
+                  <date when="1825-12-13">12 Dicembre 1825</date>
+                  <placeName>
+                     <settlement type="city">Milano</settlement>
+                     <country key="IT">Italia</country>
+                  </placeName>
+                  <placeName>
+                     <date when="1890-12-18">18 Dicembre 1890</date>
+                     <settlement type="city">Milano</settlement>
+                     <country key="IT">Italia</country>
+                  </placeName>
+                  <ref target="http://it.wikipedia.org/wiki/Gerolamo_Induno"/>
+               </name>
+               <!-- PRODUZIONE -->
+               <publisher xml:id="esb">E. SBORGI</publisher>
+               <!-- LUOGO -->
+               <pubPlace xml:id="city">Firenze</pubPlace>
+               <!-- CRONOLOGIA -->
+               <date>
+                  <note>non definibile</note>
+               </date>
+               <idno>7694_077_001/002</idno>
+               <note>codice identificativo della cartolina nel corpus cartoline</note>
+            </bibl>
+            <msDesc>
+					<!-- COLLOCAZIONE SPECIFICA -->
+					<!-- CODICE IDENTIFICATIVO -->
+               <msIdentifier>
+                  <country>Italia</country>
+                  <settlement>La Spezia (SP)</settlement>
+                  <!-- COLLOCAZIONE SPECIFICA -->
+                  <repository ref="http://etnografico.museilaspezia.it/">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- CODICE IDENTIFICATIVO -->
+                  <idno>7694_077_001/002</idno>
+                  <!-- TITOLO -->
+                  <msName>La partita a scacchi</msName>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <!-- DESCRIZIONE FISICA-->
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina Artistica</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9 x </height>
+                              <width>14 cm</width>
+                           </dimensions>
+                           <dimensions type="cartolina">
+                              <height quantity="9" unit="cm"/>
+                              <width quantity="14"/>
+                           </dimensions>
+                           <stamp>
+                              <note resp="#gmc">Cartolina non affrancata;assenti i timbri postali</note>
+                           </stamp>
+                        </support>
+                        <!-- CONSERVAZIONE -->
+                        <condition>
+                           <note>Danneggiata</note>
+                           <name ref="images/7694-077F_evidenzia_map.png">Le aree danneggiate</name> sono qui evidenziate in colore ROSSO, mentre qui è proposta una <name ref="images/7694-077F-restaurata_map.png"> versione restaurata</name>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <summary>
+                     <p n="1" resp="#gmc">Non sono disponibili informazioni dettagliate sulla storia della cartolina, che forse è stata
+								consegnata a mano, mentre lo sono in merito all'opera pittorica da cui essa trae origine.</p>
+                     <p n="2" resp="#gmc">La partita a scacchi è una replica autografa del dipinto con lo stesso soggetto conservato
+								presso la <name ref="http://www.gam-milano.com/it/home">GAM di Milano</name>.</p>
+                     <p n="3" resp="#gmc"> Il quadro trae ispirazione dall’opera teatrale in versi <name ref="https://it.wikipedia.org/wiki/Una_partita_a_scacchi">"Una partita
+									a scacchi"</name> di <name ref="https://it.wikipedia.org/wiki/Giuseppe_Giacosa">Giuseppe Giacosa</name>
+									 inscenata per la prima volta a <name key="NA" type="place">Napoli</name> nel 1873.</p>
+                     <p n="4" resp="#gmc">Tenuto conto degli eventi storici dell'epoca, del carattere dell' <persName>Induno</persName>,
+								descritto come pittore e Patriota, la sua opera <emph rend="italic">"La partita a scacchi"</emph> potrebbe essere
+								letta come allegoria degli eventi di quella giovanissima <name key="IT" type="place">Italia</name> unita da appena
+								una decina d'anni e dando così origine alla<name ref="https://it.wikipedia.org/wiki/Questione_romana">"Questione Romana" dal 1861</name> .</p>
+                     <p n="5" resp="#gmc">Nel 1870 con la presa di <name ref="https://it.wikipedia.org/wiki/Porta_Pia">Porta Pia</name>, atto simbolicamente molto significativo, 
+							<name ref="https://it.wikipedia.org/wiki/Papa_Pio_IX">Pio IX</name> scomunicava tutti i colpevoli dell'impresa ( e dell'affronto) e si ritirava, 
+							offeso, sull'<name ref="https://it.wikipedia.org/wiki/Aventino">Aventino</name> .</p>
+                     <p n="6" resp="#gmc">Si era aperta una sorte di partita a scacchi, a cui assistettero le nazioni d'Europa;
+								in particolare la <name key="FR" type="place">Francia</name>, che con <name ref="https://it.wikipedia.org/wiki/Napoleone_III_di_Francia">Napoleone III</name>
+								aveva sostenuto <name ref="https://it.wikipedia.org/wiki/Casa_Savoia">casa Savoia</name> e il <name ref="https://it.wikipedia.org/wiki/Regno_di_Sardegna">Regno di Sardegna</name> ma che ora stava vivendo un periodo difficile
+								 e il <name ref="https://it.wikipedia.org/wiki/Sovrani_di_Spagna">Regno di Spagna</name> che aveva parteggiato per <name ref="https://it.wikipedia.org/wiki/Borbone">casa Borbone</name> 
+								 e il <name ref="https://it.wikipedia.org/wiki/Regno_delle_Due_Sicilie">Regno delle due Sicilie</name> e ora per il <name ref="https://it.wikipedia.org/wiki/Storia_della_Citt%C3%A0_del_Vaticano">Vaticano</name>
+								 ; la partita, tra mosse e contromosse, si chiuderà con una <emph rend="italic">patta</emph> 59 anni dopo, il 29 Febbraio 1929, con la sottoscrizione tra
+								Italia e Vaticano dei <name ref="https://it.wikipedia.org/wiki/Patti_Lateranensi">Patti Lateranensi</name>.</p>
+                     <p n="7" resp="#gmc"> L'interpretazione qui data dal codificatore, del resto avvolarata dal libretto del Giacosa per
+								la omonima opera teatrale in versi <emph rend="italic">"Una partita a scacchi"</emph> inscenata per la prima
+								volta, guarda caso, a <name key="NA" type="place">Napoli</name> nel 1873 e parla di un matrimoniuo difficle da farsi e che, appunto,
+								apre con un litigio, resta una interpretazione del tutto personale che non cambia il significato
+								reale che all'opera pittorica il suo autore Gerolamo Induno abbia voluto a suo tempo dare. </p>
+                  </summary>
+               </history>
+               <!-- TIPOLOGIA -->
+               <additional>
+                  <adminInfo>
+                     <note>Sul retro presenta stampata “Proprietà Artistica E.Sborgi-Firenze” , G.Induno autore
+								dell'opera</note>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+            <!-- NOMI -->
+            <listPerson>
+               <person xml:id="mittente">
+                  <persName>
+                     <forename>Oliva</forename>
+                     <surname>
+                        <note resp="#gmc">ignoto</note>
+                     </surname>
+                  </persName>
+                  <sex value="F">Femmina</sex>
+                  <occupation>
+                     <note resp="#gmc">ignota</note>
+                  </occupation>
+                  <note>Mittente della cartolina</note>
+               </person>
+               <person xml:id="destinatario">
+                  <persName>
+                     <forename>
+                        <note resp="#gmc">ignoto</note>
+                     </forename>
+                     <surname>
+                        <note resp="#gmc">ignoto</note>
+                     </surname>
+                  </persName>
+                  <sex value="none">
+                     <note resp="#gmc">ignoto</note>
+                  </sex>
+                  <occupation n="none">
+                     <note resp="#gmc">ignota</note>
+                  </occupation>
+                  <note resp="#gmc">Destinatario della cartolina</note>
+               </person>
+            </listPerson>
+            <listPlace>
+               <place xml:id="spedizione">
+                  <placeName xml:id="FI">Firenze
+							<note type="gap" resp="#gmc">Non chiaro il luogo di spedizione.
+							Il timbro postale sembra indicare Firenze ma potrebbe non esserlo.</note>
+                  </placeName>
+                  <settlement type="indirizzo">Assente</settlement>
+                  <district type="city">Ravenna</district>
+                  <district type="city">Firenze</district>
+                  <note resp="#gmc">La cartolina è stata scritta in Ravenna ma spedita probabilmente da Firenze</note>
+               </place>
+            </listPlace>
+            <listOrg>
+               <org xml:id="MESP">
+                  <name ref="http://etnografico.museilaspezia.it/">Museo Civico Etnografico di La Spezia</name>
+                  <desc>Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale <name>"Giovanni Podenzana"</name>
+                  </desc>
+               </org>
+            </listOrg>
+         </sourceDesc>
+      </tei:fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#mittente">Oliva Turtura</persName>
+               <placeName>Ravenna</placeName>
+               <!-- DATA -->
+               <date when="1911-09-24">24-09-1911</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>
+                  <damage resp="#gmc">Abrasione</damage>
+               </persName>
+               <placeName>
+                  <damage resp="#gmc">Abrasione</damage>
+               </placeName>
+            </correspAction>
+            <correspContext>
+               <note>Sono presenti cancellature che rendono illeggibile il testo <p>Un sincero saluto</p>
+                  <persName>
+                     <damage resp="#gmc">Abrasione</damage>
+                  </persName>
+                  <persName>Oliva</persName>
+                  <date when="1911-09-24">24-09-1911</date>
+                  <placeName>Ravenna</placeName>
+               </note>
+            </correspContext>
+         </correspDesc>
+         <textClass>
+            <keywords scheme="keywords">
+					<!-- soggettario -->
+               <term> Cartolina </term>
+               <!-- tipologia -->
+               <term> Cartolina Artistica </term>
+               <!-- descrizione -->
+               <term>La partita a scacchi</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <p>
+                      Check sintattico con xmllint e validazione con schema RNG.
+                      Codifica seguendo il metodo "parallel-trascription".
+                      Codifica di base rispettando le forme e le informazioni lessicali, la punteggiatura e la sillabazione del documento,
+                      normalizzando il tutto per la codifica.
+                      Con appositi attributi è stata specificata anche la resa grafica di alcuni elementi.
+                  </p>
+      </encodingDesc>
+   </tei:teiHeader>
+   <tei:facsimile>
+      <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+         <front>
+            <div facs="fronte">
+               <figure facs="front_figure" type="illustrazione">
+                  <head>Fronte della cartolina "La partita a scacchi"</head>
+                  <figDesc>La partita a scacchi è una replica autografa del dipinto con lo stesso soggetto conservato presso la
+						GAM di Milano. Il quadro trae ispirazione dall’opera teatrale in versi Una partita a scacchi di Giuseppe
+						Giacosa inscenata per la prima volta a Napoli nel 1873.
+			
+			<!--	<head>Retro della cartolina "La partita a scacchi"</head> -->
+					Il retro della cartolina è suddiviso in due zone per la componente messaggio e la componente
+						indirizzo. Sono riportate le informazioni tipografiche e marcata l'area per l'affissione del francobollo.
+					</figDesc>
+               </figure>
+            </div>
+         </front>
+         <surface xml:id="fronte" type="illustrazione">
+            <graphic url="images/7694-077F_map.png" width="831px" height="536px"/>
+            <!-- fronte cartolina -->
+            <!-- area molto danneggiata -->
+            <zone xml:id="Area_danneggiata"
+                  points="6,2,145,8,148,204,195,298,286,340,333,468,188,535,2,533"/>
+            <!-- soggetto principale La partita a scacchi -->
+            <zone xml:id="Soggetto" points="105,106,785,494"/>
+         </surface>
+         <surface xml:id="retro" type="iscrizioni">
+		
+		<!-- retro della cartolina  -->
+            <graphic url="images/7694-077R_map.png" width="831px" height="536px"/>
+            <!-- elementi tipografici -->
+            <!-- LIVELLO 1 -->
+            <!-- Proprieta Artistica E. SBORGI - Firenze  -->
+            <zone xml:id="ProprietàArtistica-E-SBORGI-Firenze" points="4,130,42,415"/>
+            <!-- logo SBORGI 		-->
+            <zone xml:id="logoSBORGI" points="389,456,441,516"/>
+            <!-- titolo opera originale 		-->
+            <zone xml:id="opera" points="108,470,292,495"/>
+            <!-- artista autore dell'opera 		-->
+            <zone xml:id="autore" points="295,495,373,520"/>
+            <!-- luogo di esecuzione dell'opera 		-->
+            <zone xml:id="esecuzione" points="29,493,84,511"/>
+            <!-- linea verticale di separazione area msg - area indirizzo 	-->
+            <zone xml:id="linea_verticale_separazione_Area_msg-Area_indirizzo"
+                  points="371,7,396,533"/>
+            <!-- LIVELLO 2 -->
+            <!-- Luogo Ravenna e data di spedizione 	-->
+            <zone xml:id="Luogo" points="5,502,274,533"/>
+            <!-- timbro postale 	-->
+            <zone xml:id="timbro_postale" points="395,10,619,183"/>
+            <!-- spazio per il francobollo 	-->
+            <zone xml:id="spazio_francobollo" points="654,9,824,181"/>
+            <!-- prima linea componente indirizzo -->
+            <zone xml:id="prima_linea_componente_indirizzo" points="392,198,822,287"/>
+            <!-- seconda e terza linea componente indirizzo  -->
+            <zone xml:id="seconda-terza_linea_indirizzo_illeggibili"
+                  points="396,297,828,438"/>
+            <!-- quarta linea componente indirizzo 	-->
+            <zone xml:id="quarta_linea_città_erasa" points="458,441,820,521"/>
+            <!-- area componente messaggio 	-->
+            <zone xml:id="un-saluto-sincero" points="138,67,211,8,376,239,363,295"/>
+            <!-- area componente messaggio 	-->
+            <zone xml:id="incomprensibile-erasatura"
+                  points="100,164,195,112,379,316,304,368"/>
+            <!-- firma di Oliva 	-->
+            <zone xml:id="firmato_Oliva" points="37,239,114,158,267,329,144,440"/>
+            <!-- LIVELLO 3 -->
+            <!-- numero assegnato alla cartolina 	-->
+            <zone xml:id="numero_assegnato_alla_cartolina_da_mano_terza"
+                  points="6,3,82,50"/>
+         </surface>
+      </facsimile>
+   </tei:facsimile>
+   <tei:text>
+      <tei:body>
+         <div xmlns="http://www.tei-c.org/ns/1.0" type="fronte">
+            <figure xml:id="illustrazione">
+               <head>
+                  <name ref="popup/fronte-079.html">Fronte della cartolina "La partita a scacchi"</name>
+               </head>
+               <figDesc>La partita a scacchi è una replica autografa del dipinto con lo stesso soggetto conservato presso la
+						GAM di Milano. Il quadro trae ispirazione dall’opera teatrale in versi Una partita a scacchi di Giuseppe
+						Giacosa inscenata per la prima volta a Napoli nel 1873. Rappresenta giovani che giocano a scacchi in una sala osservati da due uomini. </figDesc>
+            </figure>
+         </div>
+         <tei:div type="retro">
+            <tei:opener xmlns="http://www.tei-c.org/ns/1.0">
+               <tei:dateline>
+                  <tei:lb/>
+                  <tei:s>            Ravenna 24-9-11 </tei:s>
+               </tei:dateline>
+            </tei:opener>
+            <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+               <tei:p>
+                  <tei:lb/>            Un saluto sincero<tei:lb/>
+                  <tei:gap reason="illegible"/>
+               </tei:p>
+               <tei:p type="fronte"/>
+            </tei:div>
+            <tei:closer xmlns="http://www.tei-c.org/ns/1.0">
+               <tei:s>
+                  <tei:lb/>
+                  <tei:signed>
+                     <tei:persName>
+                        <tei:forename ref="Oliva">Oliva</tei:forename>
+                     </tei:persName>
+                  </tei:signed>
+               </tei:s>
+            </tei:closer>
+            <tei:div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <tei:p>
+                  <tei:address>
+                     <tei:addrLine>
+                        <tei:lb/>            A Gentil <tei:gap reason="illegible"/>
+                        <tei:lb/>
+                        <tei:gap reason="illegible"/>
+                        <tei:lb/>
+                        <tei:gap reason="illegible"/>
+                        <tei:lb/>
+                        <tei:gap reason="illegible"/>
+                        <tei:lb/>
+                        <tei:gap reason="illegible"/>
+                     </tei:addrLine>
+                  </tei:address>
+               </tei:p>
+            </tei:div>
+            <tei:div type="postmark-postage">
+               <tei:ab>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">Francobollo assente per abrasione</stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postage">Stampo tondeggiante in gran parte eraso
+              			<gap reason="abrasione"/>
+                  </stamp>
+               </tei:ab>
+            </tei:div>
+            <tei:div type="secondamano">
+               <tei:ab type="paratext">
+                  <tei:add cert="medium">
+                     <num xmlns="http://www.tei-c.org/ns/1.0" value="77">77</num>
+                  </tei:add>
+               </tei:ab>
+            </tei:div>
+         </tei:div>
+      </tei:body>
+   </tei:text>
+</tei:TEI>

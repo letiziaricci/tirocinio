@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-112">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Donna sdraiata con mazzo di rose] - Edizione digitale</title>
+            <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <resp>Trascritto da:</resp>
+               <persName>Letizia Ricci</persName>
+            </respStmt>
+            <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <resp>Ente di Appartenenza:</resp>
+               <name type="comune">Comune di
+						                    <placeName>La Spezia</placeName>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                            <date when="2018">2018</date>
+            </edition>
+            <respStmt>
+               <resp>Codificato da:</resp>
+               <persName>Letizia Ricci</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Responsabile scientifico:</resp>
+               <persName>Giacomo Paolicchi</persName>
+               <persName>Enrica Salvatori</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Funzionario responsabile:</resp>
+               <persName>E. Ratti</persName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName>Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace>Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName>
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName>Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0"> <!--figlio obbligatorio: contiene le info relative alla fonte originale: data di pubblicazione diversa da quella dell'edizione digitale-->
+            <bibl>
+                        <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini
+                            non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico
+                            registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+               <title type="custom" resp="#ES">[Donna sdraiata con mazzo di rose]</title>
+               <author ref="#GC"> Giovanni </author>
+               <!---editor, imprint -->
+               <pubPlace n="00">Milano</pubPlace>
+               <!--vedevo che però c'è scritto Ufficio revisione stampa Milano, lo mettiamo come publisher??-->
+               <date when="1917-09-02"> 02/09/1917</date>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                            <!-- CODICE IDENTIFICATIVO -->
+                  <idno>7694_112_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support xml:id="support">
+                           <stamp type="postage"> Francobollo - Regno d'Italia </stamp>
+                           <stamp type="postmark">Timbro della Ferrovia di Modena </stamp>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+            <!-- NOMI -->
+            <listPerson>
+               <person xml:id="GC">
+                  <persName>
+                     <forename>Giovanni</forename>
+                     <surname>Coliola</surname>
+                  </persName>
+                  <sex>M</sex>
+                  <occupation n="1">
+                     <certainty locus="value"
+                                target="https://www.slideshare.net/trapelicino/giacomo-paolicchicartoline-della-grande-guerra-al-museo-etnografico-della-spezia"
+                                cert="high">
+                        <desc> Tenente Colonnello[maggiore]</desc>
+                     </certainty>
+                  </occupation>
+               </person>
+               <person xml:id="OT">
+                  <persName>
+                     <forename>Oliva</forename>
+                     <surname>Turtura</surname>
+                  </persName>
+                  <sex>F</sex>
+                  <education from="1914" to="1915">
+                     <certainty locus="value"
+                                target="https://archiviostorico.unibo.it/it/patrimonio-documentario/fascicolo-studenti/?record=105549"
+                                cert="high">
+                        <desc> Corso di perfezionamento per i licenziati delle Scuole Normali </desc>
+                     </certainty>
+                  </education>
+               </person>
+               <person xml:id="TC">
+                  <persName>
+                     <forename>
+                        <choice>
+                           <expan> Tito </expan>
+                           <abbr type="nome"> T. </abbr>
+                        </choice>
+                     </forename>
+                     <surname> Corbella </surname>
+                  </persName>
+                  <sex>M</sex>
+                  <occupation>
+                     <certainty locus="value"
+                                target="http://www.rocaille.it/tito-corbella/"
+                                cert="high">
+                        <desc> Disegnatore di cartoline e pittore </desc>
+                     </certainty>
+                  </occupation>
+               </person>
+            </listPerson>
+            <listPlace>
+               <place xml:id="RV">
+                  <placeName>Ravenna</placeName>
+                  <settlement type="località">città</settlement>
+                  <district type="comune">Ravenna</district>
+                  <district type="provincia">RV</district>
+                  <country key="N">IT</country>
+               </place>
+               <place xml:id="MO">
+                  <placeName>Modena</placeName>
+                  <settlement type="località">città</settlement>
+                  <district type="comune">Modena</district>
+                  <district type="provincia">MO</district>
+                  <country key="N">IT</country>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#GC">Giovanni Coliola</persName>
+               <placeName ref="#MO">Modena</placeName>
+               <date type="writing" when="1917-11-29">1917/11/29</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#OT" type="Turtura">Oliva Turtura</persName>
+               <placeName ref="#RV"> Ravenna </placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Donna con mazzo di fiori</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <p>
+                      Check sintattico con xmllint e validazione con schema RNG.
+                      Codifica seguendo il metodo "parallel-trascription".
+                      Codifica di base rispettando le forme e le informazioni lessicali, la punteggiatura e la sillabazione del documento,
+                      normalizzando il tutto per la codifica.
+                      Con appositi attributi è stata specificata anche la resa grafica di alcuni elementi.
+                  </p>
+      </encodingDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+         <surface xml:id="front1" start="#fronte_prima_cartolina" type="ff">
+            <graphic url="7694-112F.jpg"/>
+            <zone xml:id="line0" ulx="1256" uly="291" lrx="1635" lry="368"/>
+            <note type="nota_Corbella"> Immagine del fronte della cartolina, realizzata e firmata da T.Corbella</note>
+         </surface>
+         <surface xml:id="back1" start="#retroprima_cartolina" type="rr">
+            <graphic url="7694-112R.jpg"/>
+            <zone xml:id="lineac1_1" ulx="401" uly="12" lrx="579" lry="126"/>
+            <zone xml:id="lineac1_2" ulx="297" uly="130" lrx="584" lry="369"/>
+            <zone xml:id="lineac1_3" ulx="33" uly="61" lrx="241" lry="372"/>
+            <zone xml:id="lineac1_4" ulx="249" uly="20" lrx="286" lry="372"/>
+            <zone xml:id="lineac1_5" ulx="10" uly="10" lrx="54" lry="44"/>
+            <note type="nota_facsimile">Immagine del retro della cartolina a cui corrisponde un testo</note>
+         </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="retro">
+            <opener xmlns="http://www.tei-c.org/ns/1.0">
+               <dateline>
+                  <lb/>
+                  <s>            Modena li, 2/9-17</s>
+               </dateline>
+            </opener>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+               <p>
+                  <lb/>            Affettuosissimi auguri</p>
+            </div>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+               <s>
+                  <lb/>
+                  <signed>
+                     <persName>
+                        <forename ref="Giovannino">Giovannino</forename>
+                     </persName>
+                  </signed>
+               </s>
+            </closer>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                     <addrLine>
+                        <lb/>            Gent Sig.na<lb/>            Oliva Turtura<lb/>            Via Girolamo Rosfi 58<lb/>            Ravenna</addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+               <ab>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postmark">
+                     <mentioned>
+                        <placeName ref="#MO"> MODENA </placeName>
+                        <unclear reason="demage"> FERROVIA </unclear>
+                     </mentioned>
+                     <date when="1917">2210 <unclear reason="demage"> 17 </unclear>
+                     </date>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0" type="postage">francobollo da 5 centesimi del Regno d'Italia</stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add cert="medium">
+                     <num xmlns="http://www.tei-c.org/ns/1.0" type="cardinal">
+                        <idno> 112 </idno>
+                     </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE TEI SYSTEM 'totTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-007">
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title>Giulietta e Romeo - Edizione digitale</title>
+                        <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+                              <resp>Trascritto da:</resp>
+                              <persName>Letizia Ricci</persName>
+                        </respStmt>
+                        <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+                              <resp>Ente di Appartenenza:</resp>
+                              <name type="comune">
+                                    Comune di
+                                    <placeName>La Spezia</placeName>
+                              </name>
+                        </respStmt>
+                  </titleStmt>
+                  <editionStmt xmlns="http://www.tei-c.org/ns/1.0">
+                        <edition>
+                              Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                              <date when="2018">2018</date>
+                        </edition>
+                        <respStmt>
+                              <resp>Codificato da:</resp>
+                              <persName>Letizia Ricci</persName>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Responsabile scientifico:</resp>
+                              <persName>Giacomo Paolicchi</persName>
+                              <persName>Enrica Salvatori</persName>
+                        </respStmt>
+                        <respStmt>
+                              <resp>Funzionario responsabile:</resp>
+                              <persName>E. Ratti</persName>
+                        </respStmt>
+                  </editionStmt>
+                  <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+                        <publisher>
+                              <choice>
+                                    <abbr>Unipi</abbr>
+                                    <expan>
+                                          Università di
+                                          <placeName>Pisa</placeName>
+                                    </expan>
+                              </choice>
+                        </publisher>
+                        <pubPlace>Pisa</pubPlace>
+                        <availability>
+                              <p>Available under licence only</p>
+                        </availability>
+                        <date when="2019">2019</date>
+                        <distributor>
+                              <orgName>
+                                    <choice>
+                                          <abbr>LabCD</abbr>
+                                          <expan>Laboratorio di Cultura Digitale</expan>
+                                    </choice>
+                              </orgName>
+                        </distributor>
+                        <address>
+                              <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                              <addrLine>
+                                    <placeName>Pisa</placeName>
+                              </addrLine>
+                        </address>
+                  </publicationStmt>
+                  <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+                        <bibl>
+                              <title>Giulietta e Romeo</title>
+                              <publisher>"Cromogliptica" A.Marzi</publisher>
+                              <pubPlace>Roma</pubPlace>
+                        </bibl>
+                        <msDesc>
+                              <msIdentifier>
+                                    <country>Italia</country>
+                                    <settlement>La Spezia (SP)</settlement>
+                                    <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+                                cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                                    <idno>7694-007_001/002</idno>
+                              </msIdentifier>
+                              <msContents>
+                                    <summary>Cartolina Artistica</summary>
+                                    <textLang>Italiano</textLang>
+                              </msContents>
+                              <physDesc>
+                                    <objectDesc>
+                                          <supportDesc>
+                                                <support>
+                                                      <objectType>Cartolina</objectType>
+                                                      <material>Carta</material>
+                                                      <dimensions unit="cm">
+                                                            <height>9</height>
+                                                            <width>14</width>
+                                                      </dimensions>
+                                                </support>
+                                                <condition>Buono</condition>
+                                          </supportDesc>
+                                    </objectDesc>
+                                    <handDesc>
+                                          <handNote>
+                                                <p> Il testo nel recto della cartolina appartiene alla mano di
+                                        Giovanni Coliola. </p>
+                                          </handNote>
+                                          <handNote>
+                                                <p>Nell'angolo in alto a destra della parte superiore della
+                                        cartolina è presente un 7, numero di inventario della cartolina, aggiunto dal catalogatore
+                                    </p>
+                                          </handNote>
+                                    </handDesc>
+                              </physDesc>
+                        </msDesc>
+                        <listPerson>
+                              <person>
+                                    <persName ref="#GC">
+                                          <forename>Giovanni</forename>
+                                          <surname>Coliola </surname>
+                                    </persName>
+                                    <sex>M</sex>
+                                    <occupation n="1">Tenente colonnello</occupation>
+                              </person>
+                              <person>
+                                    <persName ref="#OT">
+                                          <forename>Oliva</forename>
+                                          <surname>Turtura</surname>
+                                    </persName>
+                                    <sex>F</sex>
+                              </person>
+                        </listPerson>
+                  </sourceDesc>
+            </fileDesc>
+            <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+                  <correspDesc>
+                        <correspAction type="sent">
+                              <persName ref="#GC" />
+                              <date when="02/12/1916">2 dicembre 1916</date>
+                        </correspAction>
+                        <correspAction type="received">
+                              <persName ref="#OT" />
+                        </correspAction>
+                  </correspDesc>
+                  <langUsage>
+                        <language ident="it-IT" usage="98">Italiano del Novecento</language>
+                        <language ident="fr-FR" usage="2">
+                              Francese
+                              <note>(lingua utilizzata per il titolo alternativo della cartolina del recto)</note>
+                        </language>
+                  </langUsage>
+            </profileDesc>
+            <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+                  <p>
+                      Check sintattico con xmllint e validazione con schema dtd.
+                      Codifica seguendo il metodo "parallel-trascription".
+                      Codifica di base rispettando le forme e le informazioni lessicali, la punteggiatura e la sillabazione del documento,
+                      normalizzando il tutto per la codifica.
+                      Con appositi attributi è stata specificata anche la resa grafica di alcuni elementi.
+                  </p>
+            </encodingDesc>
+      </teiHeader>
+      <facsimile xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_007">
+            <surfaceGrp>
+                  <surface xml:id="cartolina_facs_007_f" type="fronte_cartolina">
+                        <graphic url="img_cartoline/7694-007F.jpg" width="389px" height="602px" />
+                  </surface>
+                  <surface xml:id="cartolina_facs_007_r" type="recto_cartolina">
+                        <graphic url="img_cartoline/7694-007R.jpg" width="390px" height="602px" />
+                        <zone ulx="505" uly="7" lrx="728" lry="85" rendition="Line" xml:id="r_lettera_007_01" />
+                        <!-- DATA -->
+                        <zone ulx="218" uly="8" lrx="458" lry="99" rendition="Line" xml:id="r_lettera_007_02" />
+                        <!--Oliva,-->
+                        <zone ulx="19" uly="71" lrx="818" lry="180" rendition="Line" xml:id="r_lettera_007_03" />
+                        <!--È un desiderio? è un martirio-->
+                        <zone ulx="45" uly="189" lrx="801" lry="284" rendition="Line" xml:id="r_lettera_007_04" />
+                        <!--Quando, quando potrò confon- -->
+                        <zone ulx="25" uly="277" lrx="791" lry="342" rendition="Line" xml:id="r_lettera_007_05" />
+                        <!--dere i miei sospiri d'amore con -->
+                        <zone ulx="13" uly="347" lrx="799" lry="412" rendition="Line" xml:id="r_lettera_007_06" />
+                        <!-- i tuoi? quando cesseranno-->
+                        <zone ulx="11" uly="425" lrx="697" lry="480" rendition="Line" xml:id="r_lettera_007_07" />
+                        <!--questi affanni? e come?-->
+                        <zone ulx="7" uly="477" lrx="738" lry="547" rendition="Line" xml:id="r_lettera_007_08" />
+                        <!-- Sarai tu la mia buona -->
+                        <zone ulx="67" uly="554" lrx="821" lry="609" rendition="Line" xml:id="r_lettera_007_09" />
+                        <!-- consolatrice? perché l'animo-->
+                        <zone ulx="6" uly="607" lrx="820" lry="683" rendition="Line" xml:id="r_lettera_007_10" />
+                        <!-- mio ha bisogno di un solo con-->
+                        <zone ulx="13" uly="661" lrx="766" lry="746" rendition="Line" xml:id="r_lettera_007_11" />
+                        <!--forto: il tuo. Ho bisogno-->
+                        <zone ulx="30" uly="756" lrx="821" lry="820" rendition="Line" xml:id="r_lettera_007_12" />
+                        <!--d'un cuore che sappia elevarmi-->
+                        <zone ulx="7" uly="827" lrx="808" lry="895" rendition="Line" xml:id="r_lettera_007_13" />
+                        <!--sino all'ideale più puro, col-->
+                        <zone ulx="23" uly="899" lrx="763" lry="956" rendition="Line" xml:id="r_lettera_007_14" />
+                        <!--concorso leale di quello mi -->
+                        <zone ulx="12" uly="961" lrx="803" lry="1039" rendition="Line" xml:id="r_lettera_007_15" />
+                        <!-- sento capace di scuotere, di dis- -->
+                        <zone ulx="8" uly="1032" lrx="783" lry="1090" rendition="Line" xml:id="r_lettera_007_16" />
+                        <!-- sipare le grette insidie..... -->
+                        <zone ulx="2" uly="1097" lrx="805" lry="1178" rendition="Line" xml:id="r_lettera_007_17" />
+                        <!-- io solo potrei cadere nell'abbie- -->
+                        <zone ulx="7" uly="1162" lrx="793" lry="1217" rendition="Line" xml:id="r_lettera_007_18" />
+                        <!-- zione. Amami com'io su- -->
+                        <zone ulx="23" uly="1205" lrx="575" lry="1265" rendition="Line" xml:id="r_lettera_007_19" />
+                        <!-- blimamente t'amo. -->
+                        <zone ulx="586" uly="1209" lrx="826" lry="1280" rendition="Line" xml:id="r_lettera_007_20" />
+                        <!--Giovannino-->
+                        <!-- SCRITTE GIA' NELLA CARTOLINA -->
+                        <zone ulx="10" uly="42" lrx="396" lry="145" xml:id="r_intestazione7_1" />
+                        <!-- sculture mastroianni-->
+                        <zone ulx="325" uly="130" lrx="513" lry="199" xml:id="r_intestazione7_2" />
+                         <!-- giulietta e romeo-->
+                        <zone ulx="475" uly="57" lrx="807" lry="87" xml:id="r_intestazione7_3" />
+                        <!-- cromogliptica-->
+                        <zone ulx="610" uly="97" lrx="658" lry="135" xml:id="r_intestazione7_4" />
+                        <!-- AM-->
+                        <zone ulx="720" uly="456" lrx="802" lry="528" xml:id="r_intestazione7_5" />
+                        <!-- 7 -->
+                          <zone ulx="19" uly="570" lrx="819" lry="610" xml:id="r_intestazione7_6" />
+                        <!--scritte centro-->
+                  </surface>
+            </surfaceGrp>
+      </facsimile>
+      <text>
+            <body>
+                  <div xmlns="http://www.tei-c.org/ns/1.0" type="fronte" facs="#cartolina_facs_007_f">
+                        <figure>
+                              <head>Giulietta e Romeo</head>
+                              <figDesc>In primo piano il bacio tra Giulietta e Romeo seduti su una
+                            balaustra. Sul fondo il giardino di una residenza nobiliare</figDesc>
+                              <note place="bottom">
+                                    Nella parte inferiore è presente la scritta
+                                    <orgName>
+                                          D
+                                          <supplied reason="omitted-in-original">[OMENICO]</supplied>
+                                          MASTROIANNI
+                                    </orgName>
+                                    <lb />
+                                    <placeName>
+                                          RO
+                                          <supplied>[ME]</supplied>
+                                    </placeName>
+                              </note>
+                        </figure>
+                  </div>
+                  <div type="retro">
+                        <opener xmlns="http://www.tei-c.org/ns/1.0">
+                              <dateline>
+                                    <lb />
+                                    <s>li 2/12-1916.</s>
+                              </dateline>
+                        </opener>
+                        <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+                              <p>
+                                    <lb />
+                                    Oliva,
+                                    <lb />
+                                    È un desiderio? È un martirio?
+                                    <lb />
+                                    Quando, quando potrò confon-
+                                    <lb />
+                                    dere i miei sospiri d'amore con-
+                                    <lb />
+                                    i tuoi? quando conferiranno
+                                    <lb />
+                                    questi affanni? e come?
+                                    <lb />
+                                    Sarai tu la mia buona
+                                    <lb />
+                                    consolatrice? perchè l'animo
+                                    <lb />
+                                    mio ha bisogno di un solo con-
+                                    <lb />
+                                    forto : il tuo. Ho bisogno
+                                    <lb />
+                                    d'un cuore che sappia elevarmi
+                                    <lb />
+                                    sino all'ideale più puro, col
+                                    <lb />
+                                    concorso leale di quello mi
+                                    <lb />
+                                    sento capace di scuotere, di dis-
+                                    <lb />
+                                    sipare le grette insidie.....
+                                    <lb />
+                                    io solo potrei cadere nell'abbie-
+                                    <lb />
+                                    zione.
+                              </p>
+                        </div>
+                        <closer xmlns="http://www.tei-c.org/ns/1.0">
+                              <s>
+                                    <lb />
+                                    Amami, come io su-
+                                    <lb />
+                                    blimamente t'amo.
+                                    <signed>
+                                          <persName>
+                                                <forename ref="Giovannino">Giovannino</forename>
+                                          </persName>
+                                    </signed>
+                              </s>
+                        </closer>
+                        <div type="postmark-postage">
+                              <ab />
+                        </div>
+                        <div type="secondamano">
+                              <ab type="paratext">
+                                    <add cert="medium">
+                                          <num type="cardinal">
+                                 7 </num>
+                                    </add>
+                              </ab>
+                        </div>
+                  </div>
+            </body>
+      </text>
+</TEI>

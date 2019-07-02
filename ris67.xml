@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-067">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sommeil interrompu - Edizione digitale</title>
+            <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <resp>Trascritto da:</resp>
+               <persName>Letizia Ricci</persName>
+            </respStmt>
+            <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <resp>Ente di Appartenenza:</resp>
+               <name type="comune">Comune di
+						                    <placeName>La Spezia</placeName>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                            <date when="2018">2018</date>
+            </edition>
+            <respStmt>
+               <resp>Codificato da:</resp>
+               <persName>Letizia Ricci</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Responsabile scientifico:</resp>
+               <persName>Giacomo Paolicchi</persName>
+               <persName>Enrica Salvatori</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Funzionario responsabile:</resp>
+               <persName>E. Ratti</persName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName>Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace>Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName>
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName>Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     default="false">
+            <bibl default="false" status="draft">
+                    <!-- TITOLO -->
+               <title>Sommeil interrompu</title>
+               <author ref="#M">Mastroianni</author>
+               <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+               <publisher>A. Noyer</publisher>
+               <!-- LUOGO -->
+               <pubPlace>Parigi</pubPlace>
+               <!-- CRONOLOGIA, attenzione si rPDF version for downloading and printing.ePub version for mobile devices.Mobi version (for Kindle).Front Matter Title i. Releases of the TEI Guideiferisce solo alla data di stampa -->
+               <date when="1912" instant="false">1912</date>
+            </bibl>
+            <msDesc status="draft">
+               <msIdentifier>
+                  <country type="nation">Italia</country>
+                  <settlement type="city">La Spezia (SP)</settlement>
+                  <!-- COLLOCAZIONE SPECIFICA -->
+                  <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- CODICE IDENTIFICATIVO -->
+                  <idno>7694_067_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+                  <msItem n="1" facs="#fronte1">
+                     <author>
+                        <persName ref="#M" instant="false" full="yes">Mastroianni</persName>
+                     </author>
+                     <title>Sommeil Interrompu</title>
+                  </msItem>
+                  <msItem n="2" facs="#retro1">
+                     <author>
+                        <persName ref="#G" instant="false" full="yes">Giuseppe</persName>
+                     </author>
+                     <title>Cartolina di Giuseppe a Oliva Turtura, Ravenna, 24/07/1913</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp>E' presente un francobollo sull'estremità destra del retro della cartolina in buono stato. Inoltre sono presenti tre timbri:
+                                    due di partenza nella parte superiore destra della cartolina, leggibili quasi totalmente, ed uno di arrivo esattamente al centro della cartolina, poco leggibile.</stamp>
+                           <!-- descrivere francobolli-->
+                        </support>
+                        <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+                                discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+                                mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+                                cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <summary>Scrittura eseguita a mano leggibile, con una annotazione nella parte superiore del retro.</summary>
+                     <handNote n="1">Annotazione di un catalogatore che presenta il numero 67, relativo alla classificazione delle 227 cartoline appartenente al museo di La Spezia.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <p part="N">La cartolina è stata scritta il <origDate instant="false">24 luglio 1913</origDate>, un anno in cui già si cominciava a respirare l'aria della <date from="1914" to="1918" instant="false">prima guerra mondiale</date>, a <origPlace instant="false">Ravenna</origPlace>. Oggi
+                            si trovano presso il Museo Civico Etnografico "Giovanni Podenzana" di <placeName instant="false" full="yes">La Spezia</placeName>
+                  </p>
+               </history>
+            </msDesc>
+            <!-- NOMI -->
+            <listPerson default="false">
+               <person xml:id="G" instant="false">
+                  <persName instant="false" full="yes">
+                     <forename full="yes">Giuseppe</forename>
+                  </persName>
+                  <sex instant="false">M</sex>
+                  <note resp="#AL" anchored="true">Mittente della cartolina. Non si hanno ulteriori notizie su questo uomo</note>
+               </person>
+               <person xml:id="M" instant="false">
+                  <persName instant="false" full="yes">
+                     <ref target="https://www.guidedocartis.it/?page_id=15834"/>
+                     <forename full="yes">
+                        <choice>
+                           <abbr type="initial">D</abbr>
+                           <expan instant="false">Domenico</expan>
+                        </choice>
+                     </forename>
+                     <surname full="yes">Mastroianni</surname>
+                  </persName>
+                  <sex instant="false">M</sex>
+                  <birth when="1876-01-01" instant="false">1/01/1876<placeName type="comune" instant="false" full="yes">Arpino</placeName>,<country>Italia</country>
+                  </birth>
+                  <death when="1962" instant="false">1962<placeName type="city" instant="false" full="yes">Roma</placeName>,<country>Italia</country>
+                  </death>
+                  <occupation instant="false">Pittore e scultore</occupation>
+                  <note resp="#FM" anchored="true">Autore della cartolina</note>
+               </person>
+               <person instant="false">
+                  <persName ref="#OT" instant="false" full="yes">
+                     <forename full="yes">Oliva</forename>
+                     <surname full="yes">Turtura</surname>
+                  </persName>
+                  <sex instant="false">F</sex>
+                  <birth notAfter="1990" instant="false">Ravenna</birth>
+                  <note resp="#AL" anchored="true">Destinataria della cartolina. Non abbiamo molte informazioni su di lei. Sappiamo soltanto che nacque a Ravenna
+                            e frequentò nell'anno 1914/1915 il corso di perfezionamento per licenziati della scuola Normale, presso l'Università di Bologna</note>
+               </person>
+            </listPerson>
+            <listOrg default="false">
+               <org xml:id="AN" instant="false">
+                  <orgName type="Editore" instant="false" full="yes">
+                     <abbr type="initial">A.</abbr>Noyer</orgName>
+                  <place instant="false">
+                     <placeName instant="false" full="yes">Parigi</placeName>
+                  </place>
+                  <desc>Casa editrice che si è occupata della pubblicazione della cartolina e ne detiene il copyright.</desc>
+               </org>
+               <org xml:id="PI" instant="false">
+                  <orgName type="Poste" instant="false" full="yes">Poste Italiane</orgName>
+                  <desc>Società che si occupa del servizio postale italiano</desc>
+               </org>
+            </listOrg>
+            <listPlace default="false">
+               <place xml:id="RV" instant="false">
+                  <placeName instant="false" full="yes">Ravenna</placeName>
+                  <location instant="false">
+                     <settlement type="comune">Ravenna</settlement>
+                     <district type="provincia">RV</district>
+                     <region>Emilia-Romagna</region>
+                     <country type="nazione">IT</country>
+                  </location>
+               </place>
+               <place xml:id="AR" instant="false">
+                  <placeName instant="false" full="yes">Arona</placeName>
+                  <location instant="false">
+                     <settlement type="comune">Novara</settlement>
+                     <district type="provincia">NO</district>
+                     <district xml:id="LM" type="area">Lago Maggiore</district>
+                     <region>Piemonte</region>
+                     <country type="nation">IT</country>
+                  </location>
+               </place>
+               <place xml:id="PA" instant="false">
+                  <placeName instant="false" full="yes">Parigi</placeName>
+                  <location instant="false">
+                     <settlement type="città">Parigi</settlement>
+                     <country type="nation">Francia</country>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="#G" instant="false" full="yes">Giuseppe</persName>
+               <placeName ref="#RV" instant="false" full="yes">Ravenna</placeName>
+               <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+               <date type="writing" when="1913-07-24" instant="false">24/07/1913</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#OT" instant="false" full="yes">Oliva Turtura</persName>
+               <placeName ref="#AR" instant="false" full="yes">Arona</placeName>
+               <date type="postage" when="1913-07-25" instant="false">25/07/1913</date>
+               <!--La data posta sul timbro non è ben leggibile, possiamo intuire 25-07 dello stesso anno-->
+            </correspAction>
+         </correspDesc>
+         <textClass default="false">
+            <keywords><!-- soggettario --><!-- tipologia --><!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Donna che interrompe il sonno di un uomo</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <p>
+                      Check sintattico con xmllint e validazione con schema RNG.
+                      Codifica seguendo il metodo "parallel-trascription".
+                      Codifica di base rispettando le forme e le informazioni lessicali, la punteggiatura e la sillabazione del documento,
+                      normalizzando il tutto per la codifica.
+                      Con appositi attributi è stata specificata anche la resa grafica di alcuni elementi.
+                  </p>
+      </encodingDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <surface n="1" corresp="#fronte067"><!-- Fronte -->
+            <graphic url="img/067F.jpg"
+                     width="1038px"
+                     height="1642px"
+                     xml:id="fronte1"/>
+            <zone ulx="16"
+                  uly="1448"
+                  lrx="81"
+                  lry="1554"
+                  xml:id="C1fronte_01"
+                  rotate="0"/>
+            <!-- 219 AN Paris -->
+            <zone ulx="194"
+                  uly="1519"
+                  lrx="444"
+                  lry="1571"
+                  xml:id="C1fronte_02"
+                  rotate="0"/>
+            <!-- firma Mastroianni -->
+            <zone ulx="461"
+                  uly="1555"
+                  lrx="827"
+                  lry="1583"
+                  xml:id="C1fronte_03"
+                  rotate="0"/>
+            <!-- titolo: Sommel Interrompu -->
+         </surface>
+         <surface n="2" corresp="#retro067"><!-- Retro --><!-- testo lettera -->
+            <graphic url="img/067R.jpg" width="550px" height="355px" xml:id="retro1"/>
+            <zone ulx="104"
+                  uly="4"
+                  lrx="274"
+                  lry="28"
+                  xml:id="C1retro_data"
+                  rotate="0"/>
+            <!-- 24-VII-913 -->
+            <zone ulx="28"
+                  uly="18"
+                  lrx="285"
+                  lry="57"
+                  xml:id="C1retro_01"
+                  rotate="0"/>
+            <!-- prima riga -->
+            <zone ulx="14"
+                  uly="61"
+                  lrx="283"
+                  lry="84"
+                  xml:id="C1retro_02"
+                  rotate="0"/>
+            <!-- seconda riga -->
+            <zone ulx="10"
+                  uly="86"
+                  lrx="284"
+                  lry="108"
+                  xml:id="C1retro_03"
+                  rotate="0"/>
+            <!-- terza riga -->
+            <zone ulx="16"
+                  uly="110"
+                  lrx="284"
+                  lry="140"
+                  xml:id="C1retro_04"
+                  rotate="0"/>
+            <!-- quarta riga -->
+            <zone ulx="32"
+                  uly="152"
+                  lrx="256"
+                  lry="179"
+                  xml:id="C1retro_05"
+                  rotate="0"/>
+            <!-- quinta riga -->
+            <zone ulx="38"
+                  uly="176"
+                  lrx="279"
+                  lry="206"
+                  xml:id="C1retro_06"
+                  rotate="0"/>
+            <!-- sesta riga -->
+            <zone ulx="32"
+                  uly="209"
+                  lrx="280"
+                  lry="242"
+                  xml:id="C1retro_07"
+                  rotate="0"/>
+            <!-- settima riga -->
+            <zone ulx="32"
+                  uly="241"
+                  lrx="273"
+                  lry="267"
+                  xml:id="C1retro_08"
+                  rotate="0"/>
+            <!-- ottava riga -->
+            <zone ulx="31"
+                  uly="268"
+                  lrx="284"
+                  lry="300"
+                  xml:id="C1retro_09"
+                  rotate="0"/>
+            <!-- nona riga -->
+            <zone ulx="22"
+                  uly="299"
+                  lrx="213"
+                  lry="316"
+                  xml:id="C1retro_10"
+                  rotate="0"/>
+            <!-- decima riga -->
+            <zone ulx="24"
+                  uly="314"
+                  lrx="247"
+                  lry="333"
+                  xml:id="C1retro_11"
+                  rotate="0"/>
+            <!-- closer: prima riga -->
+            <zone ulx="134"
+                  uly="334"
+                  lrx="301"
+                  lry="354"
+                  xml:id="C1retro_12"
+                  rotate="0"/>
+            <!-- closer: seconda riga -->
+            <!-- francobollo e timbri -->
+            <zone ulx="389"
+                  uly="57"
+                  lrx="503"
+                  lry="163"
+                  xml:id="C1retro_timbro02"
+                  rotate="0"/>
+            <!-- timbro a destra -->
+            <zone ulx="287"
+                  uly="14"
+                  lrx="414"
+                  lry="121"
+                  xml:id="C1retro_timbro01"
+                  rotate="0"/>
+            <!-- timbro in alto -->
+            <zone ulx="202"
+                  uly="132"
+                  lrx="319"
+                  lry="245"
+                  xml:id="C1retro_timbro03"
+                  rotate="0"/>
+            <!-- timbro a sinistra -->
+            <zone ulx="448"
+                  uly="9"
+                  lrx="548"
+                  lry="104"
+                  xml:id="C1retro_francobollo"
+                  rotate="0"/>
+            <!-- francobollo -->
+            <!-- stampa -->
+            <zone ulx="1"
+                  uly="128"
+                  lrx="35"
+                  lry="293"
+                  xml:id="C1stampa"
+                  rotate="0"/>
+            <!--stampa-->
+            <!-- address -->
+            <zone ulx="288"
+                  uly="114"
+                  lrx="510"
+                  lry="173"
+                  xml:id="C1retro_address01"
+                  rotate="0"/>
+            <!-- address: prima riga -->
+            <zone ulx="285"
+                  uly="178"
+                  lrx="534"
+                  lry="215"
+                  xml:id="C1retro_address02"
+                  rotate="0"/>
+            <!-- address: seconda riga -->
+            <zone ulx="289"
+                  uly="219"
+                  lrx="541"
+                  lry="244"
+                  xml:id="C1retro_address03"
+                  rotate="0"/>
+            <!-- address: terza riga -->
+            <zone ulx="288"
+                  uly="247"
+                  lrx="476"
+                  lry="269"
+                  xml:id="C1retro_address04"
+                  rotate="0"/>
+            <!-- address: quarta riga -->
+            <zone ulx="424"
+                  uly="260"
+                  lrx="548"
+                  lry="304"
+                  xml:id="C1retro_address05"
+                  rotate="0"/>
+            <!-- address: Arona -->
+            <zone ulx="288"
+                  uly="290"
+                  lrx="372"
+                  lry="343"
+                  xml:id="C1retro_address06"
+                  rotate="0"/>
+            <!-- address: Lago Maggiore -->
+         </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              type="fronte"
+              xml:id="fronte067"
+              part="N"
+              org="uniform"
+              sample="complete">
+            <figure>
+               <figDesc>La cartolina raffigura una donna che interrompe il sonno di un uomo addormentatosi in un luogo agreste vicino ad un albero. La cartolina è in bianco e nero.</figDesc>
+               <head>Sommeil Interrompu</head>
+            </figure>
+            <ab n="ab_0" facs="#C1fronte_01" part="N">
+               <lb xml:id="fronte_lb_00"/>
+               <num type="cardinal">219</num>
+               <lb xml:id="fronte_lb_01"/>
+               <persName ref="#AN" instant="false" full="yes">
+                  <choice>
+                     <abbr type="initial">A.N.</abbr>
+                     <expan instant="false">A<ex instant="false">lfred</ex>N<ex instant="false">oyer</ex>
+                     </expan>
+                  </choice>
+               </persName>
+               <lb xml:id="fronte_lb_02"/>
+               <placeName ref="#PA" instant="false" full="yes">Paris</placeName>
+            </ab>
+            <ab n="ab_1" facs="#C1fronte_02" part="N">
+               <lb xml:id="fronte_lb_03"/>
+               <persName ref="#M" instant="false" full="yes">
+                  <choice>
+                     <abbr type="initial">D</abbr>
+                     <expan instant="false">Domenico</expan>
+                  </choice> Mastroianni</persName>
+            </ab>
+            <ab n="ab_2" facs="#C1fronte_03" part="N">
+               <lb xml:id="fronte_lb_04"/>
+               <seg type="title" part="N">SOMMEIL INTERROMPU</seg>
+            </ab>
+         </div>
+         <div type="retro">
+            <opener xmlns="http://www.tei-c.org/ns/1.0">
+               <dateline>
+                  <lb/>
+                  <s>            24-VII-913</s>
+               </dateline>
+            </opener>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+               <p>
+                  <lb/>            A Ravenna piove <lb/>            sempre: è una gioia<lb/>            per chi non è andato<lb/>            ai bagni. Per ora<lb/>            niente di nuovo,<lb/>            tutti bene. Stassera<lb/>            qui c'è musica, co-<lb/>            me ieri sera che fu<lb/>            S. Apollinare: ad Aro-<lb/>            na niente.</p>
+            </div>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+               <s>
+                  <lb/>Saluti affettuosi <lb/>
+                  <signed>
+                     <persName>
+                        <forename ref="Giuseppe">Giuseppe</forename>
+                     </persName>
+                  </signed>
+               </s>
+            </closer>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                     <addrLine>
+                        <lb/>            Signorina <lb/>            Oliva Turtura<lb/>            presso sigg. Cibecchini<lb/>            via Cavour 12<lb/>            Arona<lb/>            (Lago maggiore)</addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+               <ab>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                         type="postmark">
+                     <mentioned facs="C1retro_timbro01" xml:id="stamp1">
+                        <placeName ref="#RV" instant="false" full="yes">Ravenna</placeName>
+                        <date when="1913-07-24" instant="false">24.7.13</date>.20
+                            <gap reason="illegible" instant="false">
+                           <desc>La parte inferiore del timbro è scolorita</desc>
+                        </gap>
+                     </mentioned>
+                     <note resp="#FM" anchored="true">Timbro effettuato in data 24/07/1913 a Ravenna. Sul timbro è possibile vedere la data seguita da .20.</note>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                         type="postmark">
+                     <mentioned facs="#C1retro_timbro02" xml:id="stamp2">
+                        <placeName ref="#RV" instant="false" full="yes">Ravenna</placeName>
+                        <date when="1913-07-24" instant="false">24.7.13</date>.20
+                            <gap reason="illegible" instant="false">
+                           <desc>La parte inferiore del timbro è scolorita</desc>
+                        </gap>
+                     </mentioned>
+                     <note resp="#FM" anchored="true">Timbro effettuato in data <date instant="false">24/07/1913</date> a Ravenna. Sul timbro è possibile vedere la data seguita da .20.</note>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                         type="postmark">
+                     <mentioned facs="#C1retro_timbro03" xml:id="stamp3">
+                        <placeName instant="false" full="yes">Arona</placeName>
+                        <date when="1913-07-25" instant="false">
+                           <unclear reason="illeggible" instant="false">25.7</unclear>
+                        </date>
+                        <gap reason="illegible" instant="false">
+                           <desc>La parte restante della data e la parte inferiore del timbro sono scolorite</desc>
+                        </gap>
+                     </mentioned>
+                     <note resp="#AL" anchored="true"> Il timbro è in buona parte illeggibile, per cui abbiamo riportato soltanto il luogo d'arrivo e la data, 25/07, anch'essa poco leggibile. Riguardo l'anno possiamo ipotizzare che si tratti del 1913.</note>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                         type="postage">
+                     <mentioned facs="#C1retro_francobollo" xml:id="stamp4">
+                        <orgName ref="#PI" instant="false" full="yes">Poste Italiane</orgName>
+                        <s part="N">
+                           <num type="cardinal">10</num> centesimi <num type="cardinal">10</num>
+                        </s>
+                     </mentioned>
+                     <note resp="#FM" anchored="true">Francobollo da 10 centesimi delle poste italiane.</note>
+                  </stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add cert="medium">
+                     <num xmlns="http://www.tei-c.org/ns/1.0"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          type="cardinal"
+                          value="11">67</num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

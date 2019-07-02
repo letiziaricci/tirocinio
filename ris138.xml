@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-138">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> Donna in Camera  - Edizione digitale</title>
+            <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <resp>Trascritto da:</resp>
+               <persName>Letizia Ricci</persName>
+            </respStmt>
+            <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <resp>Ente di Appartenenza:</resp>
+               <name type="comune">Comune di
+						                    <placeName>La Spezia</placeName>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                            <date when="2018">2018</date>
+            </edition>
+            <respStmt>
+               <resp>Codificato da:</resp>
+               <persName>Letizia Ricci</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Responsabile scientifico:</resp>
+               <persName>Giacomo Paolicchi</persName>
+               <persName>Enrica Salvatori</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Funzionario responsabile:</resp>
+               <persName>E. Ratti</persName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName>Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace>Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName>
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName>Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     default="false">
+            <bibl default="false" status="draft">
+                        <!-- Titolo ricavato dalla cartolina -->
+               <title type="custom"> Donna in Camera </title>
+            </bibl>
+            <msDesc status="draft"><!-- Codice identificativo della cartolina -->
+               <msIdentifier>
+                  <country>
+                     <gi>Nazione: </gi>Italia</country>
+                  <settlement type="city">
+                     <gi>Città: </gi>La Spezia (SP) </settlement>
+                  <repository> 
+                                Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerra Mondiale 
+                            </repository>
+                  <idno>7694_138_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto e descrizione generica delle tre cartoline -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>
+                     <gi>Lingua: </gi>Italiano </textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType> Cartolina </objectType>
+                           <material> Carta </material>
+                           <dimensions unit="cm">
+                              <height> 9 </height>
+                              <width>14 </width>
+                           </dimensions>
+                        </support>
+                        <!-- Conservazione buono= non occorrono interventi di restauro;-->
+                        <condition>
+                           <gi>Stato: </gi>Buono </condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <correspDesc default="false">
+            <correspAction type="inviato">
+               <persName ref="#GC" instant="false" full="yes"/>
+               <placeName ref="#MO" instant="false" full="yes"/>
+               <!-- Dati di invio da timbro (postage) o da manoscritto (writing) -->
+               <date type="postage" when="12/10/1917" instant="false"> 12/10/1917 </date>
+               <date type="writing" when="11/10/1917" instant="false"> 11/10/1917 </date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#OT" instant="false" full="yes"/>
+               <placeName ref="#RV" instant="false" full="yes"/>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" target="#cartolina121">
+                  <persName ref="#GC" instant="false" full="yes"> Giovanni Coliola </persName>
+                  <persName ref="#OT" instant="false" full="yes"> Oliva Turtura </persName>
+                  <date when="21/06/1917" instant="false">21/06/1917</date>
+               </ref>
+               <ref type="next" target="#cartolina190">
+                  <persName ref="#GC" instant="false" full="yes"> Giovanni Coliola </persName>
+                  <persName ref="#OT" instant="false" full="yes"> Oliva Turtura </persName>
+                  <date when="26/11/1917" instant="false">26/11/1917</date>
+               </ref>
+            </correspContext>
+         </correspDesc>
+         <textClass default="false">
+            <keywords><!-- soggettario -->
+               <term> Donna vestita di azzurro in camera davanti allo specchio </term>
+               <!-- tipologia -->
+               <term> Artistica </term>
+               <!-- descrizione -->
+               <term> Cartolina Artistica </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <p>
+                      Check sintattico con xmllint e validazione con schema RNG.
+                      Codifica seguendo il metodo "parallel-trascription".
+                      Codifica di base rispettando le forme e le informazioni lessicali, la punteggiatura e la sillabazione del documento,
+                      normalizzando il tutto per la codifica.
+                      Con appositi attributi è stata specificata anche la resa grafica di alcuni elementi.
+                  </p>
+      </encodingDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <surface xml:id="F138"
+                  start="#F2"
+                  ulx="0"
+                  uly="0"
+                  lrx="549"
+                  lry="344">
+            <graphic url="img/138F.jpg"/>
+         </surface>
+         <surface xml:id="R138"
+                  start="#R2"
+                  ulx="0"
+                  uly="0"
+                  lrx="549"
+                  lry="344">
+            <graphic url="img/138R.jpg"/>
+            <!-- timbro e francobollo -->
+            <zone xml:id="cart_138_01"
+                  ulx="10"
+                  uly="42"
+                  lrx="140"
+                  lry="173"
+                  rendition="Line"
+                  rotate="0"/>
+            <!-- Indirizzo e destinatario-->
+            <zone xml:id="cart_138_02"
+                  ulx="97"
+                  uly="281"
+                  lrx="168"
+                  lry="52"
+                  rendition="Line"
+                  rotate="0"/>
+            <zone xml:id="cart_138_03"
+                  ulx="209"
+                  uly="281"
+                  lrx="168"
+                  lry="13"
+                  rendition="Line"
+                  rotate="0"/>
+            <zone xml:id="cart_138_04"
+                  ulx="212"
+                  uly="281"
+                  lrx="267"
+                  lry="1"
+                  rendition="Line"
+                  rotate="0"/>
+            <zone xml:id="cart_138_05"
+                  ulx="264"
+                  uly="255"
+                  lrx="321"
+                  lry="6"
+                  rendition="Line"
+                  rotate="0"/>
+            <!-- Codice stampato di lato -->
+            <zone xml:id="cart_138_06"
+                  ulx="312"
+                  uly="263"
+                  lrx="335"
+                  lry="311"
+                  rendition="Line"
+                  rotate="0"/>
+            <!-- Luogo e data -->
+            <zone xml:id="cart_138_07"
+                  ulx="30"
+                  uly="283"
+                  lrx="318"
+                  lry="348"
+                  rendition="Line"
+                  rotate="0"/>
+            <!-- intero testo -->
+            <zone xml:id="cart_138_08"
+                  ulx="17"
+                  uly="343"
+                  lrx="340"
+                  lry="424"
+                  rendition="Line"
+                  rotate="0"/>
+            <!-- saluto -->
+            <zone xml:id="cart_138_09"
+                  ulx="46"
+                  uly="414"
+                  lrx="148"
+                  lry="446"
+                  rendition="Line"
+                  rotate="0"/>
+            <!-- firma -->
+            <zone xml:id="cart_138_10"
+                  ulx="8"
+                  uly="441"
+                  lrx="319"
+                  lry="525"
+                  rendition="Line"
+                  rotate="0"/>
+         </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              type="fronte"
+              facs="#F138"
+              xml:id="F2"
+              part="N"
+              org="uniform"
+              sample="complete">
+            <figure>
+               <graphic url="img/138F.jpg" xml:id="c2" n="138"/>
+               <figDesc> Donna vestita di blu in camera davanti allo specchio </figDesc>
+               <head> Donna in Camera </head>
+            </figure>
+         </div>
+         <div type="retro">
+            <opener xmlns="http://www.tei-c.org/ns/1.0">
+               <dateline>
+                  <lb/>
+                  <s>            Modela, li 11/10.17.</s>
+               </dateline>
+            </opener>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+               <p>
+                  <lb/>            Mille affettuosi pensieri </p>
+            </div>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+               <s>
+                  <lb/>tuo <lb/>
+                  <signed>
+                     <persName>
+                        <forename ref="Giovannino">Giovannino</forename>
+                     </persName>
+                  </signed>
+               </s>
+            </closer>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                     <addrLine>
+                        <lb/>            Gent. Sig.na <lb/>            Oliva Turtura <lb/>            Via Girolano Rosfi 58<lb/>            Ravenna</addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+               <ab>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                         type="timbro-postale"
+                         n="1"
+                         facs="#cart_138_01">
+                     <mentioned>
+                        <unclear reason="faded" resp="#AG" instant="false"> ★ Modena ★ Ferrovia</unclear>
+                     </mentioned>
+                     <date when="12/10/1917" instant="false"> 12.10.17.20 </date>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                         type="affrancatura"
+                         n="2"
+                         facs="#cart_138_01">
+                     <lb n="5"/>Francobollo da 5 centesimi del Regno d'Italia </stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add cert="medium">
+                     <num xmlns="http://www.tei-c.org/ns/1.0"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          type="cardinal"
+                          value="138">
+                                        138
+                                </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

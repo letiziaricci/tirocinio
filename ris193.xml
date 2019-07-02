@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-193">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>La Madonna del cardellino - Edizione digitale</title>
+            <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <resp>Trascritto da:</resp>
+               <persName>Letizia Ricci</persName>
+            </respStmt>
+            <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <resp>Ente di Appartenenza:</resp>
+               <name type="comune">Comune di
+						                    <placeName>La Spezia</placeName>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                            <date when="2018">2018</date>
+            </edition>
+            <respStmt>
+               <resp>Codificato da:</resp>
+               <persName>Letizia Ricci</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Responsabile scientifico:</resp>
+               <persName>Giacomo Paolicchi</persName>
+               <persName>Enrica Salvatori</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Funzionario responsabile:</resp>
+               <persName>E. Ratti</persName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName>Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace>Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName>
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName>Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+            <bibl>
+               <title>La Madonna del cardellino</title>
+               <author>Raffaello Sanzio</author>
+               <date>1506</date>
+               <publisher>Alfieri Lacroix, Milano - Editori</publisher>
+               <pubPlace>Milano</pubPlace>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Italia</country>
+                  <settlement>La Spezia (SP)</settlement>
+                  <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+                                cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <idno>7694-193_001/002</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <material>Carta</material>
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                        </support>
+                        <condition>Mediocre</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <p> Il testo presente nel recto appartiene a due mani
+                                        differenti</p>
+                     </handNote>
+                     <handNote>
+                        <p>Nell'angolo in alto a destra della parte superiore della
+                                        cartolina è presente un 193, numero di inventario della cartolina, aggiunto dal catalogatore.</p>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+            <listPerson>
+               <person xml:id="GT">
+                  <persName>
+                     <forename>Giuseppe</forename>
+                     <surname>Turtura</surname>
+                  </persName>
+                  <sex>M</sex>
+               </person>
+               <person xml:id="AT">
+                  <persName>
+                     <forename>Antonietta</forename>
+                     <surname>Turtura</surname>
+                  </persName>
+                  <sex>F</sex>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#GT"/>
+               <date when="27/01/1918">27 gennaio 1918</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#AT"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="it-IT" usage="100">Italiano del Novecento</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <p>
+                      Check sintattico con xmllint e validazione con schema RNG.
+                      Codifica seguendo il metodo "parallel-trascription".
+                      Codifica di base rispettando le forme e le informazioni lessicali, la punteggiatura e la sillabazione del documento,
+                      normalizzando il tutto per la codifica.
+                      Con appositi attributi è stata specificata anche la resa grafica di alcuni elementi.
+                  </p>
+      </encodingDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_193">
+         <surfaceGrp>
+            <surface xml:id="cartolina_facs_193_f" type="fronte_cartolina">
+               <graphic url="img_cartoline/7694-193F.jpg"
+                        width="390px"
+                        height="602px"
+                        xml:id="f_cartolina_193"/>
+            </surface>
+            <surface xml:id="cartolina_facs_193_r" type="recto_cartolina">
+               <graphic url="img_cartoline/7694-193R.jpg" width="389px" height="602px"/>
+               <zone ulx="12"
+                     uly="769"
+                     lrx="121"
+                     lry="1192"
+                     rendition="Line"
+                     xml:id="r_cartolina_193_1"/>
+               <!-- data invio e luogo -->
+               <zone ulx="42"
+                     uly="398"
+                     lrx="150"
+                     lry="505"
+                     rendition="Line"
+                     xml:id="r_cartolina_193_2"/>
+               <!-- 193 -->
+               <zone ulx="18"
+                     uly="43"
+                     lrx="277"
+                     lry="332"
+                     rendition="Hotspot"
+                     xml:id="h_cartolina_193_1"/>
+               <!-- timbro posta militare -->
+               <zone ulx="57"
+                     uly="49"
+                     lrx="297"
+                     lry="281"
+                     rendition="Hotspot"
+                     xml:id="h_cartolina_193_2"/>
+               <!-- francobollo -->
+               <zone points=" 205,428 186,466 526,809 573,751"
+                     rendition="Hotspot"
+                     xml:id="h_cartolina_193_3"/>
+               <!-- verificato per censura -->
+               <zone ulx="505"
+                     uly="719"
+                     lrx="816"
+                     lry="1015"
+                     rendition="Hotspot"
+                     xml:id="h_cartolina_193_4"/>
+               <!-- timbro non del tutto leggibile -->
+               <zone ulx="126"
+                     uly="725"
+                     lrx="342"
+                     lry="1246"
+                     rendition="Line"
+                     xml:id="r_cartolina_193_3"/>
+               <!-- saluti affettuosi -->
+               <zone ulx="342"
+                     uly="707"
+                     lrx="426"
+                     lry="1201"
+                     rendition="Line"
+                     xml:id="r_cartolina_193_4"/>
+               <!-- a voi e famiglia -->
+               <zone ulx="438"
+                     uly="700"
+                     lrx="550"
+                     lry="1075"
+                     rendition="Line"
+                     xml:id="r_cartolina_193_5"/>
+               <!-- cugino Giuseppe -->
+               <zone ulx="313"
+                     uly="28"
+                     lrx="441"
+                     lry="640"
+                     rendition="Line"
+                     xml:id="r_cartolina_193_6"/>
+               <!-- distinta signorina -->
+               <zone ulx="400"
+                     uly="46"
+                     lrx="565"
+                     lry="673"
+                     rendition="Line"
+                     xml:id="r_cartolina_193_7"/>
+               <!-- Antonietta Turtura -->
+               <zone ulx="532"
+                     uly="148"
+                     lrx="646"
+                     lry="667"
+                     rendition="Line"
+                     xml:id="r_cartolina_193_8"/>
+               <!-- Via Girolamo Rossi 58 -->
+               <zone ulx="666"
+                     uly="55"
+                     lrx="808"
+                     lry="500"
+                     rendition="Line"
+                     xml:id="r_cartolina_193_9"/>
+               <!-- Ravenna -->
+            </surface>
+         </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="retro">
+            <opener xmlns="http://www.tei-c.org/ns/1.0">
+               <dateline>
+                  <lb/>
+                  <s>            Mestre 27-1-918.</s>
+               </dateline>
+            </opener>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+               <p>
+                  <lb/>            Saluti affettuosi <lb/>            a voi e famiglia</p>
+            </div>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+               <s>
+                  <lb/>cugino <signed>
+                     <persName>
+                        <forename ref="Giuseppe">Giuseppe</forename>
+                     </persName>
+                  </signed>
+               </s>
+            </closer>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                     <addrLine>
+                        <lb/>            Distinta Signorina<lb/>            Antonietta Turtura<lb/>            Via Girolamo Rossi 58<lb/>            Ravenna</addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+               <ab>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0"
+                         type="postage_stamp"
+                         n="francobollo_1"
+                         facs="#h_cartolina_193_2">
+                     <note>Francobollo del Regno d'Italia da 5 centesimi delle Poste
+                                    Italiane con il volto di profilo di Vittorio Emanuele III</note>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0"
+                         type="postmark"
+                         n="timbro_1"
+                         facs="#h_cartolina_193_1">
+                     <mentioned>POSTA MILITARE <unclear reason="illegible">INT</unclear>
+                                    3° ARMATA </mentioned>
+                     <date when="2018-1-27">27.1.18</date>
+                     <note> Timbro di partenza al di sopra del francobollo nell'angolo in
+                                    alto a destra, quasi del tutto leggibile, ad eccezione della
+                                    parte inferiore, che risulta invece scolorita. </note>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0"
+                         type="postmark"
+                         n="timbro_2"
+                         facs="#h_cartolina_193_4">
+                     <mentioned> SEZIONE PANET<unclear reason="illegible"/>
+                     </mentioned>
+                     <note> Timbro di arrivo in basso a sinistra. Risulta fortemente
+                                    scolorito e in gran parte illeggibile. </note>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0"
+                         type="postmark"
+                         n="timbro_3"
+                         facs="#h_cartolina_193_3">
+                     <mentioned> VERIFICATO PER CENSURA </mentioned>
+                     <note xml:id="nota_censura"> Timbro apposto in diagonale nella parte
+                                    centrale della cartolina parzialmente scolorito nella parte
+                                    inferiore ma leggibile. La censura postale venne istituita il 23
+                                    maggio 1915, il giorno prima dell'entrata in guerra contro
+                                    l'Austria-Ungheria. Essa prevedeva di non poter inviare
+                                    cartoline illustrate con paesaggi o panorami di città, oltre al
+                                    non poter usare sistemi criptati di comunicazione. </note>
+                  </stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add cert="medium">
+                     <num type="cardinal">193</num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-176">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Baci mattutini] - Edizione digitale</title>
+            <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <resp>Trascritto da:</resp>
+               <persName>Letizia Ricci</persName>
+            </respStmt>
+            <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <resp>Ente di Appartenenza:</resp>
+               <name type="comune">Comune di
+			<placeName>La Spezia</placeName>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                            <date when="2018">2018</date>
+            </edition>
+            <respStmt>
+               <resp>Codificato da:</resp>
+               <persName>Letizia Ricci</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Responsabile scientifico:</resp>
+               <persName>Giacomo Paolicchi</persName>
+               <persName>Enrica Salvatori</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Funzionario responsabile:</resp>
+               <persName>E. Ratti</persName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName>Pisa</placeName>
+                  </xpan>
+               </choice>
+            </publisher>
+            <pubPlace>Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName>
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               </ddrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName>Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0">
+            <bibl>
+                        <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini
+                            non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico
+                            registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+               <title type="custom" resp="#ES">[Baci mattutini]</title>
+               <author ref="#GC">Giovanni </author>
+               <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+               <publisher>
+                  <orgName ref="#AT">Edizioni Alberto Traldi </orgName>
+                  <!--si tratta di una casa editrice-->
+               </publisher>
+               <!-- LUOGO -->
+               <pubPlace n="00"> Milano</pubPlace>
+               <publisher n="primoed">
+                  <ptr target="#AN"/>A. Noyer</publisher>
+               <pubPlace xml:id="Paris"> Parigi </pubPlace>
+               <date when="1917-11-29"> 29/11/17</date>
+            </bibl>
+            <msDesc>
+               <msIdentifier>                         
+                            <!-- CODICE IDENTIFICATIVO -->
+                  <idno>7694_176_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+            </msDesc>
+            <!-- NOMI -->
+            <listPerson>
+               <person>
+                  <persName ref="#GC">
+                     <forename>Giovanni</forename>
+                     <surname>Coliola</surname>
+                  </persName>
+                  <sex>M</sex>
+                  <occupation n="1">
+                     <certainty locus="value"
+                                target="https://www.slideshare.net/trapelicino/giacomo-paolicchicartoline-della-grande-guerra-al-museo-etnografico-della-spezia"
+                                cert="high">
+                        <desc> Tenente Colonnello[maggiore] </desc>
+                     </certainty>
+                  </occupation>
+               </person>
+               <person>
+                  <persName ref="#OT">
+                     <forename>Oliva</forename>
+                     <surname>Turtura</surname>
+                  </persName>
+                  <sex>F</sex>
+                  <education from="1914" to="1915">
+                     <certainty locus="value"
+                                target="https://archiviostorico.unibo.it/it/patrimonio-documentario/fascicolo-studenti/?record=105549"
+                                cert="high">
+                        <desc> Corso di perfezionamento per i licenziati delle Scuole Normali </desc>
+                     </certainty>
+                  </education>
+               </person>
+               <person xml:id="AN">
+                  <persName>
+                     <forename>
+                        <choice>
+                           <expan>Armand</expan>
+                           <abbr>A.</abbr>
+                        </choice>
+                     </forename>
+                     <surname>Noyer</surname>
+                  </persName>
+                  <sex>M</sex>
+                  <nationality key="fr">francese</nationality>
+                  <occupation n="2">
+                     <certainty locus="value"
+                                target="https://fr.wikibooks.org/wiki/Photographie/Soci%C3%A9t%C3%A9s_et_Organisations/%C3%89diteurs_de_cartes_postales/Armand_Noyer"
+                                cert="high">
+                        <desc> Editore di cartoline </desc>
+                     </certainty>
+                  </occupation>
+               </person>
+            </listPerson>
+            <!--LUOGHI-->
+            <listPlace>
+               <place>
+                  <placeName ref="#RV">Ravenna</placeName>
+                  <settlement type="località">città</settlement>
+                  <district type="comune">Ravenna</district>
+                  <district type="provincia">RV</district>
+                  <country key="N">IT</country>
+               </place>
+               <place>
+                  <placeName ref="#MO">Modena</placeName>
+                  <settlement type="località">città</settlement>
+                  <district type="comune">Modena</district>
+                  <district type="provincia">MO</district>
+                  <country key="N">IT</country>
+               </place>
+            </listPlace>
+            <listOrg>
+               <org xml:id="AT">
+                  <orgName> Edizioni 
+                                <persName>
+                        <forename>
+                           <choice>
+                              <expan>Alberto</expan>
+                              <abbr type="nome">A.</abbr>
+                           </choice>
+                        </forename>
+                        <surname>Traldi</surname>
+                     </persName>
+                  </orgName>
+               </org>
+            </listOrg>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#GC"> Giovanni Coliola</persName>
+               <placeName ref="#MO">Modena</placeName>
+               <date type="writing" when="1917-11-29">1917/11/29</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="Turtura" ref="#OT">Oliva Turtura</persName>
+               <placeName ref="#RV"> Ravenna </placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords>
+                        <!-- soggettario -->
+                        <!-- tipologia -->
+                        <!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Artistica </term>
+               <term>Coppia di innamorati</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it" usage="98">italiano del Novecento</language>
+            <language ident="latinism" usage="02">latinismi, forme desuete</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <p>
+                      Check sintattico con xmllint e validazione con schema RNG.
+                      Codifica seguendo il metodo "parallel-trascription".
+                      Codifica di base rispettando le forme e le informazioni lessicali, la punteggiatura e la sillabazione del documento,
+                      normalizzando il tutto per la codifica.
+                      Con appositi attributi è stata specificata anche la resa grafica di alcuni elementi.
+                  </p>
+      </encodingDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+         <surface xml:id="front2" start="#fronte_seconda_cartolina" type="ff">
+            <graphic url="7694-176F.jpg"/>
+            <note type="nota_facsimile">L'immagine si trova sul fronte della cartolina e non presenta scritte.</note>
+         </surface>
+         <surface xml:id="back2" start="#retroseconda_cartolina" type="rr">
+            <graphic xml:id="imgretro_2" url="7694-176R.jpg"/>
+            <zone xml:id="lineac2_1" ulx="250" uly="8" lrx="468" lry="39"/>
+            <zone xml:id="lineac2_2" ulx="39" uly="41" lrx="575" lry="372"/>
+            <zone xml:id="lineac2_3" ulx="14" uly="13" lrx="149" lry="33"/>
+            <zone xml:id="lineac2_4" ulx="10" uly="57" lrx="30" lry="352"/>
+            <zone xml:id="lineac2_5" ulx="500" uly="10" lrx="565" lry="32"/>
+            <note type="nota_facsimile">Immagine del retro della cartolina a cui corrisponde un testo</note>
+         </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="retro">
+            <opener xmlns="http://www.tei-c.org/ns/1.0">
+               <dateline>
+                  <lb/>
+                  <s>            Modena, li 29/11-17</s>
+               </dateline>
+            </opener>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+               <p>
+                  <lb/>            Oliva mia,<lb/>            Non puoi credere quanto mi sia diventato<lb/>            odioso questo materialismo fugato, asfillante, avido;<lb/>            che vivo in una incufante (incusante) monotonia di fredda<lb/>            solitudine. Non una favola buona, un consiglio<lb/>            un sorriso, uno sguardo affettuoso, nulla che si<lb/>            allontani, si elevi dall'insulsa obbrobriosa<lb/>            sterile norma delle cose inanimate che ti circonda<lb/>            no, nulla per questa mia anima sitibonda<lb/>            d'affetto, d'amore, di pace. </p>
+            </div>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+               <s>
+                  <lb/>tuo <signed>
+                     <persName>
+                        <forename ref="Giovannino">Giovannino</forename>
+                     </persName>
+                  </signed>
+               </s>
+            </closer>
+            <div type="postmark-postage">
+               <ab/>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add cert="medium">
+                     <num xmlns="http://www.tei-c.org/ns/1.0" type="cardinal">
+                        <idno> 176 </idno>
+                     </num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

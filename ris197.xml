@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-197">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>La casa della fioraia - Edizione digitale</title>
+            <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <resp>Trascritto da:</resp>
+               <persName>Letizia Ricci</persName>
+            </respStmt>
+            <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <resp>Ente di Appartenenza:</resp>
+               <name type="comune">Comune di
+						                    <placeName>La Spezia</placeName>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                            <date when="2018">2018</date>
+            </edition>
+            <respStmt>
+               <resp>Codificato da:</resp>
+               <persName>Letizia Ricci</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Responsabile scientifico:</resp>
+               <persName>Giacomo Paolicchi</persName>
+               <persName>Enrica Salvatori</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Funzionario responsabile:</resp>
+               <persName>E. Ratti</persName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName>Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace>Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName>
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName>Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     default="false">
+            <bibl default="false" status="draft">
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+               <title>La casa della fioraia</title>
+               <author ref="#RS">Rubens Santoro</author>
+               <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+               <publisher>Casa editrice d'Arte Bestetti e Tumminelli</publisher>
+               <!-- LUOGO -->
+               <pubPlace>Milano</pubPlace>
+               <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+               <date instant="false"/>
+            </bibl>
+            <msDesc status="draft">
+               <msIdentifier>
+                  <country>Italia</country>
+                  <settlement ref="#SP">La Spezia (SP)</settlement>
+                  <!-- COLLOCAZIONE SPECIFICA -->
+                  <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- CODICE IDENTIFICATIVO -->
+                  <idno>7694_197_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <!-- DESCRIZIONE -->
+               <msContents>
+                  <summary>Cartolina Celebrativa</summary>
+                  <textLang>Italiano</textLang>
+                  <msItem n="1" facs="#fronte3">
+                     <author>
+                        <persName ref="#RS" instant="false" full="yes">Rubens Santoro</persName>
+                     </author>
+                     <title>Sommeil Interrompu</title>
+                  </msItem>
+                  <msItem n="2" facs="#retro3">
+                     <author>
+                        <persName ref="#GI" instant="false" full="yes">Giovanni Coliola</persName>
+                     </author>
+                     <title>Cartolina di Giuseppe a Oliva Turtura, Modena 14/01/1918</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp>Non sono presenti francobolli.</stamp>
+                        </support>
+                        <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+                                discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+                                mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+                                cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <summary>Scrittura eseguita a mano leggibile, in corsivo, con una annotazione nella parte superiore destra del retro.</summary>
+                     <handNote n="1">Annotazione di un catalogatore che presenta il numero 197, 
+                                relativo alla classificazione delle 227 cartoline appartenente al museo di La Spezia.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <p part="N">La cartolina è stata scritta il <origDate instant="false">14 Gennaio 1918</origDate> a <origPlace instant="false">Modena</origPlace>, quando ancora si combatteva al fronte in occasione della <date from="1914" to="1918" instant="false">Prima Guerra Mondiale</date>. Il mittente è <persName ref="#GI" instant="false" full="yes">Giovanni Coliola</persName>,
+                      un tenente colonnello che, dovendosi spostare spesso a causa della guerra, scrive alla donna amata lontana da lui.</p>
+               </history>
+            </msDesc>
+            <!-- NOMI -->
+            <listPerson default="false">
+               <person instant="false">
+                  <persName ref="#GI" instant="false" full="yes">
+                     <forename full="yes">Giovanni</forename>
+                     <addName type="nick" full="yes">Giovannino</addName>
+                     <surname full="yes">Coliola</surname>
+                  </persName>
+                  <sex instant="false">M</sex>
+                  <occupation n="1" instant="false">tenente colonnello</occupation>
+                  <birth when="1985" instant="false">1895<placeName type="city" instant="false" full="yes">Napoli</placeName>,<country>Italia</country>
+                  </birth>
+                  <death when="1980" instant="false">1980<placeName type="city" instant="false" full="yes">Ravenna</placeName>,<country>Italia</country>
+                  </death>
+                  <note resp="#FM" anchored="true">Mittente della cartolina. Si firma come Giovannino</note>
+               </person>
+               <person instant="false">
+                  <persName ref="#OT" instant="false" full="yes">
+                     <forename full="yes">Oliva</forename>
+                     <surname full="yes">Turtura</surname>
+                  </persName>
+                  <sex instant="false">F</sex>
+                  <birth notAfter="1990" instant="false">Ravenna</birth>
+                  <note resp="#AL" anchored="true">Destinataria della cartolina. Non abbiamo molte informazioni su di lei. Sappiamo soltanto che nacque a Ravenna
+                        e frequentò nell'anno 1914/1915 il corso di perfezionamento per licenziati della scuola Normale, presso l'Università di Bologna</note>
+               </person>
+               <person xml:id="RS" instant="false">
+                  <persName instant="false" full="yes">
+                     <forename full="yes">Rubens</forename>
+                     <surname full="yes">Santoro</surname>
+                  </persName>
+                  <sex instant="false">M</sex>
+                  <note resp="#AL" anchored="true">Autore della cartolina</note>
+               </person>
+            </listPerson>
+            <listOrg default="false">
+               <org xml:id="BT" instant="false">
+                  <orgName type="Editore" instant="false" full="yes">Bestetti e Tumminelli</orgName>
+                  <place instant="false">
+                     <placeName instant="false" full="yes">Milano</placeName>
+                  </place>
+                  <desc>Casa editrice che si è occupata della pubblicazione della cartolina e ne detiene il copyright.</desc>
+               </org>
+            </listOrg>
+            <listPlace default="false">
+               <place xml:id="MO" instant="false">
+                  <placeName instant="false" full="yes">Modena</placeName>
+                  <location instant="false">
+                     <settlement type="comune">Modena</settlement>
+                     <district type="provincia">MO</district>
+                     <region>Emilia-Romagna</region>
+                     <country type="nazione">IT</country>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="#GC" instant="false" full="yes"/>
+               <placeName ref="#MO" instant="false" full="yes">Modena</placeName>
+               <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+               <date type="writing" when="1918-01-14" instant="false">14/1/1918</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#OT" instant="false" full="yes">Oliva Turtura</persName>
+               <note resp="#FM" anchored="true">Non sono specificati nè il luogo nè la data di arrivo</note>
+            </correspAction>
+         </correspDesc>
+         <textClass default="false">
+            <keywords><!-- soggettario --><!-- tipologia --><!-- descrizione -->
+               <term>Cartolina </term>
+               <term>Cartolina Celebrativa </term>
+               <term>Una donna seduta su dei gradini con in mano dei fiori</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <p>
+                      Check sintattico con xmllint e validazione con schema RNG.
+                      Codifica seguendo il metodo "parallel-trascription".
+                      Codifica di base rispettando le forme e le informazioni lessicali, la punteggiatura e la sillabazione del documento,
+                      normalizzando il tutto per la codifica.
+                      Con appositi attributi è stata specificata anche la resa grafica di alcuni elementi.
+                  </p>
+      </encodingDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <surface n="1" corresp="#fronte197"><!-- Fronte -->
+            <graphic url="img/197F.jpg"
+                     width="350px"
+                     height="540px"
+                     xml:id="fronte3"/>
+            <zone ulx="3"
+                  uly="495"
+                  lrx="346"
+                  lry="523"
+                  xml:id="fronte_01"
+                  rotate="0"/>
+            <!-- prima riga -->
+            <zone ulx="3"
+                  uly="520"
+                  lrx="344"
+                  lry="539"
+                  xml:id="fronte_02"
+                  rotate="0"/>
+            <!-- seconda riga -->
+         </surface>
+         <surface n="2" corresp="#retro197"><!-- Retro -->
+            <graphic url="img/197R.jpg" width="357px" height="554px" xml:id="retro3"/>
+            <!--stampe-->
+            <zone ulx="13"
+                  uly="13"
+                  lrx="326"
+                  lry="23"
+                  xml:id="stampa01"
+                  rotate="0"/>
+            <zone ulx="34"
+                  uly="62"
+                  lrx="78"
+                  lry="233"
+                  xml:id="stampa02"
+                  rotate="0"/>
+            <zone ulx="301"
+                  uly="72"
+                  lrx="332"
+                  lry="398"
+                  xml:id="stampa03"
+                  rotate="0"/>
+            <!--Testo-->
+            <zone ulx="114"
+                  uly="4"
+                  lrx="351"
+                  lry="35"
+                  xml:id="retro_01"
+                  rotate="0"/>
+            <!-- data -->
+            <zone ulx="13"
+                  uly="33"
+                  lrx="191"
+                  lry="66"
+                  xml:id="retro_02"
+                  rotate="0"/>
+            <!-- Oliva mia, -->
+            <zone ulx="61"
+                  uly="63"
+                  lrx="322"
+                  lry="93"
+                  xml:id="retro_03"
+                  rotate="0"/>
+            <!-- Sono giunto solo. -->
+            <zone ulx="57"
+                  uly="101"
+                  lrx="352"
+                  lry="131"
+                  xml:id="retro_04"
+                  rotate="0"/>
+            <!-- Per tutta la durata del  -->
+            <zone ulx="28"
+                  uly="133"
+                  lrx="345"
+                  lry="165"
+                  xml:id="retro_05"
+                  rotate="0"/>
+            <!-- viaggio ho ostinatamente  -->
+            <zone ulx="8"
+                  uly="167"
+                  lrx="351"
+                  lry="197"
+                  xml:id="retro_06"
+                  rotate="0"/>
+            <!-- pensato a te, alle tue parole  -->
+            <zone ulx="9"
+                  uly="198"
+                  lrx="352"
+                  lry="224"
+                  xml:id="retro_07"
+                  rotate="0"/>
+            <!-- alle tue speranze, al vostro  -->
+            <zone ulx="9"
+                  uly="234"
+                  lrx="350"
+                  lry="259"
+                  xml:id="retro_08"
+                  rotate="0"/>
+            <!-- amore, poi non ho saputo  -->
+            <zone ulx="5"
+                  uly="261"
+                  lrx="354"
+                  lry="292"
+                  xml:id="retro_09"
+                  rotate="0"/>
+            <!-- chiarire certi tuoi pensieri am- -->
+            <zone ulx="5"
+                  uly="289"
+                  lrx="347"
+                  lry="324"
+                  xml:id="retro_10"
+                  rotate="0"/>
+            <!-- bigui, oscuri, fa niente… -->
+            <zone ulx="5"
+                  uly="325"
+                  lrx="353"
+                  lry="352"
+                  xml:id="retro_11"
+                  rotate="0"/>
+            <!-- in seguito sarai più confi- -->
+            <zone ulx="6"
+                  uly="356"
+                  lrx="344"
+                  lry="390"
+                  xml:id="retro_12"
+                  rotate="0"/>
+            <!-- denziale… chissà. Ti sia  -->
+            <zone ulx="4"
+                  uly="390"
+                  lrx="344"
+                  lry="420"
+                  xml:id="retro_13"
+                  rotate="0"/>
+            <!-- di conforto il saperti tanto  -->
+            <zone ulx="8"
+                  uly="421"
+                  lrx="352"
+                  lry="456"
+                  xml:id="retro_14"
+                  rotate="0"/>
+            <!-- tanto amata, adorata, nel  -->
+            <zone ulx="5"
+                  uly="456"
+                  lrx="353"
+                  lry="489"
+                  xml:id="retro_15"
+                  rotate="0"/>
+            <!-- più vero significato, t’auguro  -->
+            <zone ulx="8"
+                  uly="487"
+                  lrx="356"
+                  lry="519"
+                  xml:id="retro_16"
+                  rotate="0"/>
+            <!-- che ciò valga almeno qualche  -->
+            <zone ulx="4"
+                  uly="516"
+                  lrx="356"
+                  lry="545"
+                  xml:id="retro_17"
+                  rotate="0"/>
+            <!-- volta, a squarciare il velo di me- -->
+            <zone ulx="4"
+                  uly="538"
+                  lrx="349"
+                  lry="553"
+                  xml:id="retro_18"
+                  rotate="0"/>
+            <!-- stizia che adombra i tuoi pensieri. -->
+         </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xml:id="fronte197"
+              type="fronte"
+              part="N"
+              org="uniform"
+              sample="complete">
+            <figure>
+               <figDesc>La cartolina rappresenta una giovane donna, una fioraia, che tiene infatti in mano e vicino a sè dei fiori. La donna è seduta sui gradini che permettono l'accesso alla sua casa. Dalla porta aperta notiamo sullo sfondo un giardino ricco di vegetazione</figDesc>
+               <head>La casa della fioraia</head>
+            </figure>
+            <ab n="ab_00" part="N">
+               <persName instant="false" full="yes">
+                  <unclear reason="illegible" instant="false">Rubens Santoro</unclear>
+               </persName>
+            </ab>
+            <salute>
+               <lb xml:id="fronte_lb_000" facs="#fronte_01"/>
+                    Sarei felice? Un bacio <w part="N">purissi
+                    <lb xml:id="fronte_lb_001" facs="#fronte_02" break="no"/>
+                    mo</w>, tuo
+                </salute>
+            <signed>
+               <persName ref="#GI" instant="false" full="yes">Giovannino</persName>
+            </signed>
+         </div>
+         <div type="retro">
+            <opener xmlns="http://www.tei-c.org/ns/1.0">
+               <dateline>
+                  <lb/>
+                  <s>            Modena, li 14/1-1918</s>
+               </dateline>
+            </opener>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+               <p>
+                  <lb/>            Oliva mia,<lb/>            sono giunto solo.<lb/>            Per tutta la durata del <lb/>            viaggio ho ostinatamente<lb/>            pensato a te, alle tue parole <lb/>            alle tue speranze, al nostro <lb/>            amore, poi non ho saputo <lb/>            chiarire certi tuoi pensieri am-<lb/>            bigui, oscuri, fa niente...<lb/>            in seguito sarai più confi-<lb/>            denziale... chisfà. Ti sia <lb/>            di conforto il saperti tanto <lb/>            tanto amata, adorata, nel <lb/>            più vero significato, t’auguro<lb/>            che ciò valga almeno qualche <lb/>            volta, a squarciare il velo di me-<lb/>            stizia che adombra i tuoi pensieri.</p>
+            </div>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+               <s>
+                  <lb/>Sarei felice? Un bacio purissi <lb/>mo, tuo <signed>
+                     <persName>
+                        <forename ref="Giovannino">Giovannino</forename>
+                     </persName>
+                  </signed>
+               </s>
+            </closer>
+            <div type="postmark-postage">
+               <ab/>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add cert="medium">
+                     <num xmlns="http://www.tei-c.org/ns/1.0"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          type="cardinal"
+                          value="11">197</num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

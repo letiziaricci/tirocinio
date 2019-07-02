@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cartolina_7694-223">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Vaso di fiori] - Edizione digitale</title>
+            <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <resp>Trascritto da:</resp>
+               <persName>Letizia Ricci</persName>
+            </respStmt>
+            <respStmt xmlns="http://www.tei-c.org/ns/1.0">
+               <resp>Ente di Appartenenza:</resp>
+               <name type="comune">Comune di
+						                    <placeName>La Spezia</placeName>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                            <date when="2018">2018</date>
+            </edition>
+            <respStmt>
+               <resp>Codificato da:</resp>
+               <persName>Letizia Ricci</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Responsabile scientifico:</resp>
+               <persName>Giacomo Paolicchi</persName>
+               <persName>Enrica Salvatori</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Funzionario responsabile:</resp>
+               <persName>E. Ratti</persName>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt xmlns="http://www.tei-c.org/ns/1.0">
+            <publisher>
+               <choice>
+                  <abbr>Unipi</abbr>
+                  <expan>Università di
+                            <placeName>Pisa</placeName>
+                  </expan>
+               </choice>
+            </publisher>
+            <pubPlace>Pisa</pubPlace>
+            <availability>
+               <p>Available under licence only</p>
+            </availability>
+            <date when="2019">2019</date>
+            <distributor>
+               <orgName>
+                  <choice>
+                     <abbr>LabCD</abbr>
+                     <expan>Laboratorio di Cultura Digitale</expan>
+                  </choice>
+               </orgName>
+            </distributor>
+            <address>
+               <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+               <addrLine>
+                  <placeName>Pisa</placeName>
+               </addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc xmlns="http://www.tei-c.org/ns/1.0" n="223">
+            <bibl>
+               <title type="custom" resp="#ES">[Vaso di fiori]</title>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Italia</country>
+                  <settlement>La Spezia (SP)</settlement>
+                  <!-- COLLOCAZIONE SPECIFICA -->
+                  <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                  <!-- CODICE IDENTIFICATIVO -->
+                  <idno>7694_223_001/002</idno>
+               </msIdentifier>
+               <!-- Informazioni sul contenuto della cartolina -->
+               <msContents>
+                  <summary>Cartolina Artistica</summary>
+                  <textLang>Italiano</textLang>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>Cartolina</objectType>
+                           <!-- MATERIALI -->
+                           <material>Carta</material>
+                           <!-- DIMENSIONE -->
+                           <dimensions unit="cm">
+                              <height>9</height>
+                              <width>14</width>
+                           </dimensions>
+                           <stamp>francobollo - Regno d'Italia</stamp>
+                        </support>
+                        <!-- CONSERVAZIONE -->
+                        <condition>Buono</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+            <!-- NOMI che compaiono all'interno della cartolina-->
+            <listPerson>
+               <person>
+                  <persName xml:id="MC">
+                     <forename>Maria</forename>
+                     <surname>Coliola</surname>
+                  </persName>
+                  <sex>F</sex>
+               </person>
+               <person>
+                  <persName ref="#OT">
+                     <forename>Oliva</forename>
+                     <surname>Turtura</surname>
+                  </persName>
+                  <sex>F</sex>
+               </person>
+            </listPerson>
+            <!-- POSTI che compaiono all'interno della cartolina-->
+            <listPlace>
+               <place>
+                  <placeName ref="#RV">Ravenna</placeName>
+                  <settlement type="località">città</settlement>
+                  <district type="comune">Ravenna</district>
+                  <district type="provincia">RV</district>
+                  <country key="N">IT</country>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#MC"/>
+               <placeName>Spezia</placeName>
+               <!-- DATA data di invio da timbro -->
+               <date type="postage" when="1917-05-25">25/05/1917</date>
+               <date type="writing" when="1917-05-24">24/05/1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#OT"/>
+               <placeName>
+                  <address>
+                     <addrLine>Via Gerolamo Rossi - 58</addrLine>
+                     <addrLine>Ravenna</addrLine>
+                  </address>
+               </placeName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords>
+               <term>Cartolina artistica</term>
+               <term>Artistica </term>
+               <term>Un vaso di fiori</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="it-IT">italiano</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+         <p>
+                      Check sintattico con xmllint e validazione con schema RNG.
+                      Codifica seguendo il metodo "parallel-trascription".
+                      Codifica di base rispettando le forme e le informazioni lessicali, la punteggiatura e la sillabazione del documento,
+                      normalizzando il tutto per la codifica.
+                      Con appositi attributi è stata specificata anche la resa grafica di alcuni elementi.
+                  </p>
+      </encodingDesc>
+   </teiHeader>
+   <facsimile xmlns="http://www.tei-c.org/ns/1.0">
+         <surface xml:id="surface7694-223F"> <!-- 7694-223 FRONTE -->
+            <graphic url="group/7694-223F.jpg"
+                     width="527px"
+                     height="819px"
+                     n="imgF223"/>
+         </surface>
+         <surface xml:id="surface7694-223R"> <!-- 7694-223 RETRO -->
+            <graphic url="group/7694-223R.jpg"
+                     width="822px"
+                     height="530px"
+                     n="imgR223"/>
+            <zone ulx="461"
+                  uly="19"
+                  lrx="579"
+                  lry="144"
+                  rendition="HotSpot"
+                  xml:id="hotspot1_7694-223R"/>
+            <!-- francobollo e timbro -->
+            <zone ulx="385"
+                  uly="45"
+                  lrx="449"
+                  lry="67"
+                  rendition="HotSpot"
+                  xml:id="hotspot2_7694-223R"/>
+            <!-- 223 -->
+            <zone ulx="331"
+                  uly="152"
+                  lrx="571"
+                  lry="187"
+                  rendition="Line"
+                  xml:id="line1_7694-223R"/>
+            <!-- gentilissima signorina -->
+            <zone ulx="283"
+                  uly="196"
+                  lrx="554"
+                  lry="238"
+                  rendition="Line"
+                  xml:id="line2_7694-223R"/>
+            <!-- signorina oliva turtura -->
+            <zone ulx="283"
+                  uly="245"
+                  lrx="577"
+                  lry="287"
+                  rendition="Line"
+                  xml:id="line3_7694-223R"/>
+            <!-- via gerolamo rossi -->
+            <zone ulx="308"
+                  uly="295"
+                  lrx="573"
+                  lry="354"
+                  rendition="Line"
+                  xml:id="line4_7694-223R"/>
+            <!-- ravenna -->
+            <zone ulx="284"
+                  uly="67"
+                  lrx="442"
+                  lry="151"
+                  rendition="HotSpot"
+                  xml:id="hotspot3_7694-223R"/>
+            <!-- censura spezia -->
+            <zone ulx="87"
+                  uly="131"
+                  lrx="275"
+                  lry="245"
+                  rendition="Line"
+                  xml:id="line5_7694-223R"/>
+            <!-- spezia -->
+            <zone ulx="71"
+                  uly="231"
+                  lrx="211"
+                  lry="50"
+                  rendition="Line"
+                  xml:id="line6_7694-223R"/>
+            <!-- contraccambio -->
+            <zone ulx="52"
+                  uly="148"
+                  lrx="130"
+                  lry="36"
+                  rendition="Line"
+                  xml:id="line7_7694-223R"/>
+            <!-- baci e saluti -->
+            <zone ulx="135"
+                  uly="198"
+                  lrx="179"
+                  lry="111"
+                  rendition="Line"
+                  xml:id="line8_7694-223R"/>
+            <!-- affettuosissimi -->
+            <zone ulx="77"
+                  uly="208"
+                  lrx="188"
+                  lry="52"
+                  rendition="Line"
+                  xml:id="line9_7694-223R"/>
+            <!-- maria -->
+            <zone ulx="19"
+                  uly="293"
+                  lrx="33"
+                  lry="355"
+                  rendition="HotSpot"
+                  xml:id="hotspot4_7694-223R"/>
+            <!-- serie 2000 -->
+            <zone ulx="260"
+                  uly="352"
+                  lrx="291"
+                  lry="365"
+                  rendition="HotSpot"
+                  xml:id="hotspot5_7694-223R"/>
+            <!-- D.N.S. -->
+         </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div xmlns="http://www.tei-c.org/ns/1.0" type="fronte">
+            <note xml:id="noteFronte">In basso a sinistra, è presente una scritta poco leggibile (a causa di una piega sulla carta) che potrebbe indicare il nome dell'artista.</note>
+            <figure>
+               <figDesc>La cartolina raffigura un vaso di fiori blu con delle foglie larghe, su uno sfondo chiaro.</figDesc>
+               <head>[Vaso di fiori]</head>
+            </figure>
+         </div>
+         <div type="retro">
+            <opener xmlns="http://www.tei-c.org/ns/1.0">
+               <dateline>
+                  <lb/>
+                  <s>        Spezia 24-V-17.</s>
+               </dateline>
+            </opener>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="postcard-body">
+               <p>
+                  <lb/>        Contraccambio affettuosi<lb/>        baci e saluti.</p>
+            </div>
+            <closer xmlns="http://www.tei-c.org/ns/1.0">
+               <s>
+                  <lb/>Aff.ma <lb/>
+                  <signed>
+                     <persName>
+                        <forename ref="Maria">Maria</forename>
+                     </persName>
+                  </signed>
+                  <signed>
+                     <persName>
+                        <forename ref="Maria">Maria</forename>
+                     </persName>
+                  </signed>
+                  <signed>
+                     <persName>
+                        <surname>Coliola</surname>
+                     </persName>
+                  </signed>
+               </s>
+            </closer>
+            <div xmlns="http://www.tei-c.org/ns/1.0" type="address-destination">
+               <p>
+                  <address>
+                     <addrLine>
+                        <lb/>        Alla Gent.ma Sig.na <lb/>        Sig.na Oliva Turtura<lb/>        Via Girolamo Rosfi 58<lb/>        Ravenna</addrLine>
+                  </address>
+               </p>
+            </div>
+            <div type="postmark-postage">
+               <ab>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0"
+                         type="postmark"
+                         facs="#hotspot1_7694-223R">
+                     <mentioned>spezia arrivi e partenze</mentioned>
+                     <date when="1917-05-25">25.5.1917</date>
+                  </stamp>
+                  <stamp xmlns="http://www.tei-c.org/ns/1.0"
+                         type="postage"
+                         facs="#hotspot1_7694-223R">
+                     <hi rend="uppercase">poste italiane 5 centesimi</hi>
+                  </stamp>
+               </ab>
+            </div>
+            <div type="secondamano">
+               <ab type="paratext">
+                  <add cert="medium">
+                     <num type="cardinal">223</num>
+                  </add>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
